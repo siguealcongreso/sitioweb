@@ -1,0 +1,15 @@
+<table>
+  <tr class="stripe-dark">
+    {{ $headers := split (.Get 0) "," }}
+    {{ range $headers }}
+    <th>{{ . }}</th>
+    {{ end }}
+  </tr>
+  {{ range .Get 1 | transform.Unmarshal }}
+  <tr class="stripe-dark">
+    {{ range . }}
+    <td>{{ . | markdownify }}</td>
+    {{ end }}
+  </tr>
+  {{ end }}
+</table>

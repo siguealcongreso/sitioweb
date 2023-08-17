@@ -1,0 +1,36 @@
+disableHugoGeneratorInject = true
+baseURL = "http://siguealcongreso.org"
+languageCode = "es"
+title = "Sigue al Congreso"
+theme = "ananke"
+defaultContentLanguage = "es"
+ignoreFiles = ['.*md~']
+
+[params]
+  show_reading_time = true
+  custom_css = ["custom.css"]
+  background_color_class = "bg-dark-blue"
+  toc = true
+  title = "Sigue al Congreso"
+  description = "Monitoreo parlamentario ciudadano"
+  images = ["logo.jpg"]
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 2
+    ordered = false
+  [markup.goldmark]
+      [markup.goldmark.renderer]
+            unsafe = true
+  [markup.goldmark.parser]
+    [markup.goldmark.parser.attribute]
+      block = true
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  area_lxiii = "areas/lxiii"
+  municipio = "municipios"
+  comision = "comisiones"
+  relevancia = "relevancias"
+  tema = "temas"

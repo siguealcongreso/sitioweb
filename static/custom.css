@@ -1,0 +1,38 @@
+#TableOfContents ul li ul li {
+    margin: 0;
+}
+
+ol.references li:target {
+    background-color: lightblue;
+}
+
+img {
+    max-width: 80%;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: auto auto auto auto 1fr;
+    gap: 0.5em;
+    margin-top: 1em;
+    padding: 0.5em;
+}
+
+@media (min-width: 40em) {
+    .grid {
+	grid-template-rows: 1fr auto;
+	grid-template-columns: 8fr 3fr 3fr;
+    }
+    .autor, .comisiones {
+	grid-row: span 2;
+    }
+    .tema {
+	grid-row: 2;
+    }
+    .proceso, .resumen {
+	grid-column: span 3;
+    }
+    .doscolumnas {
+	grid-column: span 2;
+    }
+}

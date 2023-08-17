@@ -1,0 +1,14 @@
+<table>
+  <tr class="stripe-dark">
+    {{ $headers := split (.Get 0) "," }}
+    {{ range $headers }}
+    <th>{{ . }}</th>
+    {{ end }}
+  </tr>
+  {{ range .Get 1 | transform.Unmarshal }}
+  <tr class="stripe-dark">
+    <td><a href="{{ .url | markdownify }}">{{ .nombre }}<a/></td><td>{{ .creador }}</td><td>{{ .objeto | markdownify }}</td>
+    <td>{{ .temas | markdownify }}</td><td>{{ .recursos | markdownify }}</td><td>{{ .publico }}</td>
+  </tr>
+  {{ end }}
+</table>

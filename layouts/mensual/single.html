@@ -1,0 +1,35 @@
+{{ define "main" }}
+<aside>
+<div class="ph4 mw8 center">
+    {{ with .NextInSection }}
+      <a class="f6 link dim ph3 pv2 mb2 dib black" href="{{.Permalink}}">← {{.Title}}</a>
+    {{ else }}
+      {{ range where .Parent.Parent.RegularPagesRecursive ".Params.indice" (add (int .Params.indice) -1) }}
+      <a class="f6 link dim ph3 pv2 mb2 dib black" href="{{.Permalink}}">← {{.Title}}</a>{{ end }}
+    {{ end }}
+    {{ with .PrevInSection }}
+      <a class="f6 link dim ph3 pv2 mb2 dib black" href="{{.Permalink}}">{{.Title}} →</a>
+    {{ else }}
+      {{ range where .Parent.Parent.RegularPagesRecursive ".Params.indice" (add .Params.indice 1) }}
+      <a class="f6 link dim ph3 pv2 mb2 dib black" href="{{.Permalink}}">{{.Title}} →</a>{{ end }}
+    {{ end }}
+</div>
+</aside>
+{{- .Content -}}
+<aside>
+<div class="ph4 mw8 center">
+    {{ with .NextInSection }}
+      <a class="f6 link dim ph3 pv2 mb2 dib black" href="{{.Permalink}}">← {{.Title}}</a>
+    {{ else }}
+      {{ range where .Parent.Parent.RegularPagesRecursive ".Params.indice" (add (int .Params.indice) -1) }}
+      <a class="f6 link dim ph3 pv2 mb2 dib black" href="{{.Permalink}}">← {{.Title}}</a>{{ end }}
+    {{ end }}
+    {{ with .PrevInSection }}
+      <a class="f6 link dim ph3 pv2 mb2 dib black" href="{{.Permalink}}">{{.Title}} →</a>
+    {{ else }}
+      {{ range where .Parent.Parent.RegularPagesRecursive ".Params.indice" (add .Params.indice 1) }}
+      <a class="f6 link dim ph3 pv2 mb2 dib black" href="{{.Permalink}}">{{.Title}} →</a>{{ end }}
+    {{ end }}
+</div>
+</aside>
+{{ end }}

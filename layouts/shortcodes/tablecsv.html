@@ -1,0 +1,9 @@
+{{ $rows := .Inner | transform.Unmarshal }}
+<table>
+  {{ range $rows }}
+  <tr>
+    {{ range . }} <td>{{ . }}</td> {{ end }}
+  </tr>
+  {{ end }}
+</table>
+

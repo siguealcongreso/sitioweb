@@ -1,0 +1,13 @@
+<div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <h1 class="f4 near-black">
+      <a href="{{ .Permalink }}" class="link black dim">
+       {{ strings.Replace (path.Split .File).File ".md" "" }} 🔗
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      {{ .Content  }}
+
+    </div>
+  </div>
+</div>

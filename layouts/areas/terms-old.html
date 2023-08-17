@@ -1,0 +1,40 @@
+{{ define "main" }}
+  <article class="cf pa3 pa4-m pa4-l">
+    <div class="measure-wide-l center f4 lh-copy nested-copy-line-height nested-links nested-img mid-gray">
+      {{ $sum := 0 }}
+      {{ range ($.Site.GetPage ("/areas")).Pages }} {{ if ne .Title "Armonización" }} {{ $sum = add $sum (len .Pages) }} {{ end }} {{ end }}
+      {{ .Content }} Las {{ $sum }} iniciativas se agrupan en {{ len .Data.Terms }} áreas. Las iniciativas aprobadas se marcan en color verde:
+    </div>
+  </article>
+  <div class="mw8 center">
+    <section class="ph4">
+      <table>
+	<tr class="tl"><th>Área</th><th>Cantidad</th></tr>
+      {{ range .Data.Terms.ByCount }}
+        <tr class="stripe-dark"><td><a href="#{{ .Page.Title }}">{{ .Page.Title }}</a></td><td class="tr">{{ .Count }}</td></tr>
+      {{ end }}
+      </table>
+    </section>
+  </div>
+  <div class="mw8 center">
+    <section class="ph4">
+      {{ range .Data.Terms.ByCount }}
+        <h4 id="{{ .Page.Title }}" class="f3">
+          <a href="{{ .Page.Permalink }}" class="link blue hover-black">
+            {{ .Page.Title }} {{ .Count }}
+          </a>
+        </h4>
+	<table cellspacing="0">
+	  {{ range .Pages.ByParam "numero" }}
+	  <tr class="{{ if eq .Params.estado "Aprobado" }}bg-light-green{{ end }}"><td class="bb b--black-20">
+	    <a class="link bg-animate hover-bg-light-blue f5 no-underline br-pill grow ba ph2 pt1 ml1 dib black sans-serif" href="{{ .Permalink }}">{{ .Params.numero }}</a></td><td class="bb b--black-20">{{ index .Params.temas 0 }}</td><td class="bb b--black-20">{{ .Params.resumen | markdownify }}</td>
+         </tr>
+	    {{ end }}
+        </table>
+        <!-- {{ range .Pages }} -->
+        <!--   {{ partial "ficha.html" . }} -->
+        <!-- {{ end }} -->
+      {{ end }}
+    </section>
+  </div>
+{{ end }}
