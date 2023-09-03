@@ -48,3 +48,6 @@ La Agenda Legislativa se aprobó el 27 de enero de 2022 con 32 votos a favor.
 
 La Agenda Legislativa es fundamental para organizar el trabajo del Congreso y asegurar que se traten temas importantes para la sociedad. La participación de diferentes partidos políticos en su definición garantiza que se consideren diferentes puntos de vista y se busquen soluciones integrales a los problemas del estado.
 
+## Ver el Acuerdo Legislativo
+<a href="https://congresoweb.congresojal.gob.mx/infolej/agendakioskos/documentos/sistemaintegral/estados/129339.pdf" target="_blank">https://congresoweb.congresojal.gob.mx/infolej/agendakioskos/documentos/sistemaintegral/estados/129339.pdf </a>
+
