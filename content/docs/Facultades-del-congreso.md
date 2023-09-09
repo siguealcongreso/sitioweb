@@ -20,7 +20,7 @@ El Congreso del Estado de Jalisco, como principal órgano legislativo de esta en
 ## ¿Con cuáles facultades el Congreso puede regular al Poder Ejecutivo?
    - Facultar al Ejecutivo para representar la Entidad en ciertos casos y autorizar los convenios que celebre el Ejecutivo. (Artículo 35 Fracción II, Constitución Política del Estado de Jalisco)
    - Autorizar al titular del Poder Ejecutivo y a sus entes públicos para celebrar ciertos actos jurídicos. (Fracción XI, Constitución Política del Estado de Jalisco)
-   - Pedir informes al Gobernador sobre cualquier ramo de la administración. (Artículo 35 Fracción XXIX)
+   - Pedir informes al Gobernador sobre cualquier ramo de la administración. (Artículo 35 Fracción XXIX, Constitución Política del Estado de Jalisco)
    - Citar a los titulares de dependencias del Poder Ejecutivo para que informen sobre diversos asuntos. (Artículo 35 Fracción XXX, Constitución Política del Estado de Jalisco)
    - Aprueban la iniciativa de Ley de Ingresos y el proyecto de Presupuesto de Egresos del Estado que serán ejercidos el año siguiente, atendiendo a las disposiciones legales correspondientes. (Arículo 42, Ley del Presupuesto, Contabilidad y Gasto Público del Estado de Jalisco)
 
@@ -35,7 +35,7 @@ El Congreso del Estado de Jalisco, como principal órgano legislativo de esta en
 
 ## ¿Cuáles facultades del Congreso son para regularse a sí mismo?
    - Expedir su Ley Orgánica, formar sus reglamentos, y dictar disposiciones para el buen funcionamiento de sus oficinas. (Artículo 35 Fracción XXX, Constitución Política del Estado de Jalisco)
-   - Presidir la junta preparatoria para instalar la nueva legislatura. (Artículo 35 Fracción XXXIV)
+   - Presidir la junta preparatoria para instalar la nueva legislatura. (Artículo 35 Fracción XXXIV, Constitución Política del Estado de Jalisco)
    - Elaborar el proyecto de presupuesto del Poder Legislativo y ejercerlo con autonomía. (Artículo 35 Fracción XXIV, Constitución Política del Estado de Jalisco)
 
 ## ¿Cuáles cargos le toca elegir al Congreso?
@@ -48,5 +48,9 @@ El Congreso del Estado de Jalisco, como principal órgano legislativo de esta en
    - El Fiscal Especializado en materia de Delitos Electorales y Fiscal Especializado en Combate a la Corrupción. Se requiere el voto de las dos terceras partes de los diputados integrantes. (Artículo 35 Fracción XXXVI, Constitución Política del Estado de Jalisco)
    - El Procurador de Desarrollo Urbano del Estado. Se requiere el voto de las dos terceras partes de los diputados integrantes. (Artículo 35 Fracción XXXVII, Constitución Política del Estado de Jalisco)
 
-## Ver la Ley Orgánica del Poder Legislativo del Estado de Jalisco
-<a href="https://congresoweb.congresojal.gob.mx/infolej/sistemaintegral/gaceta/documentos/2.-%20Ley%20Org%C3%A1nica%20del%20Poder%20Legislativo%20del%20Estado%20de%20Jalisco.pdf" target="_blank"> Ley Orgánica del Poder Legislativo del Estado de Jalisco </a>
+## Documentos de interés
+
+- <a href="https://congresoweb.congresojal.gob.mx/infolej/sistemaintegral/gaceta/documentos/2.-%20Ley%20Org%C3%A1nica%20del%20Poder%20Legislativo%20del%20Estado%20de%20Jalisco.pdf" target="_blank"> Ley Orgánica del Poder Legislativo del Estado de Jalisco </a>
+- <a href="https://leyco.org/mex/jal/cpej-1917.html#a35" target="_blank"> Constitución Política del Estado de Jalisco </a>
+- <a href="https://leyco.org/mex/jal/lpcgpej-1998.html#t2.c5" target="_blank"> Ley del Presupuesto, Contabilidad y Gasto Público del Estado de Jalisco </a>
+- <a href="https://leyco.org/mex/jal/lhmej-1984.html#a15" target="_blank"> Ley de Hacienda Municipal del Estado de Jalisco </a>
