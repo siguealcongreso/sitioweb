@@ -1,9 +1,8 @@
 ---
-title: Facultades Del Congreso
+title: Facultades del Congreso
 date: 2023-09-09T13:16:56-06:00
 draft: false
 description: Descubre las facultades del Congreso del Estado de Jalisco para regular los poderes Ejecutivo, Judicial y Municipal, así como sus propias funciones. 
-toc: true
 ---
 
 Conoce más sobre las facultades del Congreso del Estado de Jalisco.
