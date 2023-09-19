@@ -11,8 +11,8 @@ A raíz de las tres convocatorias publicadas el 24 de abril por el Congreso del 
 
 Se publicó el siguiente comunicado como parte de la red del Observatorio de Designaciones Públicas con perspectiva de género:
 
-![Comunicado del Análisis de la Convocatoria para el proceso de elección de consejeros de la judicatura](content/trabajo/comunicado-analisis-convocatoria-1.png)
+![Comunicado del Análisis de la Convocatoria para el proceso de elección de consejeros de la judicatura](/comunicado-analisis-convocatoria-1.png)
 
-![Comunicado del Análisis de la Convocatoria para el proceso de elección de consejeros de la judicatura](content/trabajo/comunicado-analisis-convocatoria-2.png)
+![Comunicado del Análisis de la Convocatoria para el proceso de elección de consejeros de la judicatura](/comunicado-analisis-convocatoria-2.png)
 
-![Comunicado del Análisis de la Convocatoria para el proceso de elección de consejeros de la judicatura](content/trabajo/comunicado-analisis-convocatoria-3.png)
+![Comunicado del Análisis de la Convocatoria para el proceso de elección de consejeros de la judicatura](/comunicado-analisis-convocatoria-3.png)
