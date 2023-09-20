@@ -9,5 +9,5 @@ description: Formamos parte del Observatorio Ciudadano Colectivo de Jalisco, bus
 <!--more-->
 Formamos parte del Observatorio Ciudadano Colectivo de Jalisco para crear una alianza con diversas organizaciones de la sociedad civil y colectivos para exigir una elección del Consejo de la Judicatura de manera transparente, digna y participativa.
 
-![Judicatura que sirva](/trabajo/judicaturaquesirva.png)
+<img src="/trabajo/judicaturaquesirva.png" alt="Judicatura que sirva" style="margin-top: 4rem;">
 
