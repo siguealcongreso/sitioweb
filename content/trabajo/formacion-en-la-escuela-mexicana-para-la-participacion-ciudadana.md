@@ -1,5 +1,5 @@
 ---
-title: Formacion en la Escuela Mexicana para la Participacion Ciudadana
+title: Formación en la Escuela Mexicana para la Participación Ciudadana
 date: 2023-09-19T14:36:56-06:00
 draft: false
 weight: 10
