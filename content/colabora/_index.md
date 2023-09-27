@@ -13,7 +13,7 @@ iniciativa de ley!
 Así todos podremos saber de qué trata y qué propone en términos
 sencillos de entender.
 
-👉 [Cómo hacer el resumen de una iniciativa](/colabora/pasos/)
+👉 [Cómo hacer el resumen de una iniciativa](/colabora/manual-para-iniciativas-de-ley.pdf)
 
 > Es una tarea muy sencilla que te llevará solo unos minutos. 😎 🏃
 
