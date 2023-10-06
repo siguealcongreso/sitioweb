@@ -2,7 +2,7 @@ disableHugoGeneratorInject = true
 baseURL = "http://siguealcongreso.org"
 languageCode = "es"
 title = "Sigue al Congreso"
-theme = "ananke"
+theme = "hugo-now"
 defaultContentLanguage = "es"
 ignoreFiles = ['.*md~']
 
@@ -14,6 +14,8 @@ ignoreFiles = ['.*md~']
   title = "Sigue al Congreso"
   description = "Monitoreo parlamentario ciudadano"
   images = ["logo.jpg"]
+  avatar = "/logo.jpg"
+  mainSections = ["acerca"]
 
 [markup]
   [markup.tableOfContents]
