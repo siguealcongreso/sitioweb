@@ -1,0 +1,10 @@
+{{ $hdr := .Get 0 }}
+{{ $list := .Page.Scratch.Get "footnotes"}}
+{{ $hdr = print "## " $hdr }}
+{{ $hdr | markdownify }}
+<ol class="references">
+  {{ range  $key, $value := $list }}
+  <li id="ref{{ $key }}">{{ $value | markdownify }}<br/>
+  {{end}}
+</ol>
+{{ .Page.Scratch.Delete "footnotes" }}
