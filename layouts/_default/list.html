@@ -1,8 +1,9 @@
 {{ partial "header" . }}
 {{ partial "nav" . }}
 <div class="container">
+  {{ .Content }}
   <section class="section">
-      {{ $paginator := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
+      {{ $paginator := .Paginate (.Pages) }}
       {{ range sort $paginator.Pages }}
       <article>
         {{ partial "post-metadata-list" . }}
