@@ -1,6 +1,7 @@
-{{ define "main" }}
-  <article class="cf pa3 pa4-m pa4-l">
-    <div class="measure-wide-l center f4 lh-copy nested-copy-line-height nested-links nested-img mid-gray">
+{{ partial "header" . }}
+{{ partial "nav" . }}
+  <article class="container">
+    <div class="section">
       {{ $slice := slice }}
       {{ range ($.Site.GetPage ("/areas")).Pages }}
         {{ range $page := .Pages }}
@@ -28,40 +29,40 @@
       <!-- {{ if $sintema }} Se muestran {{ sub $pendientes $sintema }} iniciativas en proceso, hay {{ $sintema }} a las que les falta tema y resumen (<a href="/monitoreo/sintema/lxiii">clic para ayudar</a>).{{ end }} -->
     </div>
   </article>
-  <div class="mw8 center">
-    <section class="ph4">
-      <table>
+  <div class="container">
+    <section class="section">
+      <table class="table table-hover">
 	<tr class="tl"><th>Comisión</th><th>Cantidad</th><th>Aprobadas</th></tr>
       {{ range .Data.Terms.ByCount }}
         {{ $aprobadas := 0 }}
 	{{ range .Pages }}
           {{ if eq .Params.estado "Aprobado" }}{{ $aprobadas = add $aprobadas 1 }}{{ end }}
 	{{ end }}
-        <tr class="stripe-dark"><td><a href="#{{ .Page.Title }}">{{ .Page.Title }}</a></td>
-	  <td class="tr">{{ .Count }}</td>
-	  <td class="tr">{{ if $aprobadas }}{{ $aprobadas }}{{ end }}</td>
+        <tr><td><a href="/comisiones/#{{ .Page.Title }}">{{ .Page.Title }}</a></td>
+	  <td>{{ .Count }}</td>
+	  <td>{{ if $aprobadas }}{{ $aprobadas }}{{ end }}</td>
 	</tr>
       {{ end }}
       </table>
     </section>
   </div>
-  <div class="mw8 center">
-    <section class="ph4">
+  <div class="container">
+    <section class="section">
       {{ range .Data.Terms.ByCount }}
-        <h4 id="{{ .Page.Title }}" class="f3">
-          <a href="{{ .Page.Permalink }}" class="link blue hover-black">
+        <h4 id="{{ .Page.Title }}">
+          <a href="{{ .Page.Permalink }}">
             {{ .Page.Title }} {{ .Count }}
           </a>
         </h4>
-	<table cellspacing="0">
+	<table class="table table-hover">
 	  {{ range .Pages.ByParam "numero" }}
-	  <tr class="{{ if eq .Params.estado "Aprobado" }}bg-light-green{{ end }}">
+	  <tr class="{{ if eq .Params.estado "Aprobado" }}bg-success-subtle{{ end }}">
 	    {{ if not (eq (index .Params.municipios 0) "") }}
-	    <td class="bb b--black-20">{{ index .Params.autores_corto 0 }}</td>
-	    <td class="bb b--black-20">{{ .Params.cambios }}(<a href="{{ .Permalink }}">{{ .Params.numero }}</a>)</td>
+	    <td>{{ index .Params.autores_corto 0 }}</td>
+	    <td>{{ .Params.cambios }}(<a href="{{ .Permalink }}">{{ .Params.numero }}</a>)</td>
 	    {{ else }}
-	    <td class="bb b--black-20">{{ index .Params.temas 0 }}</td>
-	    <td class="bb b--black-20">{{ .Params.resumen | markdownify }} (<a href="{{ .Permalink }}">{{ .Params.numero }}</a>)</td>
+	    <td>{{ index .Params.temas 0 }}</td>
+	    <td>{{ .Params.resumen | markdownify }} (<a href="{{ .Permalink }}">{{ .Params.numero }}</a>)</td>
 	    {{ end }}
 	    <!-- <td class="bb b--black-20">{{ .Params.cambios }}</td> -->
          </tr>
@@ -70,4 +71,4 @@
       {{ end }}
     </section>
   </div>
-{{ end }}
+{{ partial "footer" . }}
