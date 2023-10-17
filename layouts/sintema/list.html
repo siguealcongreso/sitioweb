@@ -1,13 +1,11 @@
-{{ define "main" }}
-  <article class="cf pa3 pa4-m pa4-l">
-    <div class="measure-wide-l center f4 lh-copy nested-copy-line-height nested-links nested-img mid-gray">
-
+{{ partial "header" . }}
+{{ partial "nav" . }}
+    <div class="container">
       {{ .Content }}
     </div>
-  </article>
-  <div class="mw8 center">
-    <section class="ph4">
-      <table>
+  <div class="container">
+    <section class="section">
+      <table class="table table-hover">
 	<tr class="tl">
 	  <th>1 ¿Qué cambia?</th>
 	  <th>2 ¿Que dice?</th>
@@ -16,7 +14,7 @@
 	</tr>
 	{{ range ($.Site.GetPage ("/monitoreo/iniciativas/lxiii")).Pages.ByParam "numero" }}
 	{{ if and (eq (index .Params.temas 0) "Pendiente") (eq (index .Params.municipios 0) "") }}
-        <tr class="{{ if eq .Params.estado "Aprobado" }}bg-light-green{{ else }}stripe-dark{{ end }}">
+        <tr class="{{ if eq .Params.estado "Aprobado" }}bg-success-subtle{{ else }}stripe-dark{{ end }}">
 	  <td class="tl">{{ .Params.cambios }} (<a href="{{ .Permalink }}">{{ .Params.numero }}</a>)</td>
 	  <td><a href="https://congresoweb.congresojal.gob.mx/infolej/sistemaintegral/infolej/{{ .Params.documento }}" target="_blank">Leer documento</a></td>
 	  <td><a href="/resumen?numero={{ .Params.numero }}" target="_blank">Llenar formulario</a></td>
@@ -26,5 +24,4 @@
       {{ end }}
       </table>
     </section>
-  </div>
-{{ end }}
+{{ partial "footer" . }}
