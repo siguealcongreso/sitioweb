@@ -2,14 +2,15 @@
 {{ partial "nav" . }}
   <article class="container">
     <div class="section">
-      <h2>{{ .Title }}</h2>
+      <h1>{{ .Title }}</h1>
     </div>
   </article>
   <div class="container">
     <section class="section">
       {{ range  .Pages.ByParam "numero" }}
+      <h2>{{ .Title }}</h2>
         <div>
-          {{ .Title }}
+          {{ .Summary }}
         </div>
       {{ end }}
     </section>
