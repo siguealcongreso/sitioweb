@@ -1,3 +1,7 @@
+.bg-success-subtle {
+    background-color: #9eebcf;
+}
+
 #TableOfContents ul li ul li {
     margin: 0;
 }
