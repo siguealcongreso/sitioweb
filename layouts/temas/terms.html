@@ -1,23 +1,28 @@
-{{ define "main" }}
-  <article class="cf pa3 pa4-m pa4-l">
-    <div class="measure-wide-l center f4 lh-copy nested-copy-line-height nested-links nested-img mid-gray">
+{{ partial "header" . }}
+{{ partial "nav" . }}
+<article class="container">
+  <h2>{{ .Title }}</h2>
+    <div class="section">
       {{ .Content }}
     </div>
   </article>
-  <div class="mw8 center">
-    <section class="ph4">
+  <div class="container">
+    <section class="section">
       {{ range .Data.Terms.ByCount }}
-        <h4 class="f3">
-          <a href="{{ .Page.Permalink }}" class="link blue hover-black">
+        <h3>
+          <a href="{{ .Page.Permalink }}">
             {{ .Page.Title }} {{ .Count }}
-          </a><span class="f5">
-	    {{ range .Pages }}<a class="link bg-animate hover-bg-light-blue f5 no-underline br-pill grow ba ph2 pt1 ml1 dib black sans-serif" href="{{ .Permalink }}">{{ .Params.numero }}</a>{{ end }}
+          </a>
+        </h3>
+	  <span>
+	    {{ range .Pages }}
+	    <a class="badge rounded-pill bg-secondary" href="{{ .Permalink }}">{{ .Params.numero }}</a>
+	    {{ end }}
 	  </span>
-        </h4>
         <!-- {{ range .Pages }} -->
         <!--   {{ partial "ficha.html" . }} -->
         <!-- {{ end }} -->
       {{ end }}
     </section>
   </div>
-{{ end }}
+{{ partial "footer" . }}
