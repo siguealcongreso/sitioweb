@@ -2,15 +2,15 @@
 title: Agenda Legislativa LXIII
 date: 2023-08-31T18:51:13-06:00
 draft: false
-description: Descubre los temas principales y transversales de la Agenda Legislativa LXIII del Congreso en Jalisco, México
+description: Descubre los ejes principales y transversales de la Agenda Legislativa LXIII del Congreso en Jalisco, México
 ---
 
-Temas principales y transversales de esta legislatura.
+Ejes principales y transversales de esta legislatura.
 <!--more-->
 
 ## ¿Qué es?
 
-La Agenda Legislativa es una lista de temas importantes que los miembros del Congreso en Jalisco, México, deciden tratar durante un período de tiempo. Esta lista es muy importante porque ayuda a organizar el trabajo del Congreso y asegura que se traten temas que afectan a la vida de las personas.
+La Agenda Legislativa es una lista de temas importantes que los miembros del Congreso en Jalisco, México, deciden tratar durante un periodo de tiempo. Esta lista es muy importante porque ayuda a organizar el trabajo del Congreso y asegura que se traten temas que afectan a la vida de las personas.
 
 ## ¿Cómo se hace?
 
@@ -18,9 +18,9 @@ La <a href="https://congresoweb.congresojal.gob.mx/infolej/sistemaintegral/gacet
 
 ## ¿Qué temas se tratan?
 
-La agenda se divide en dos tipos de temas: principales y transversales. 
+La agenda se divide en dos tipos de ejes: principales y transversales. 
 
-### Temas Principales
+### Ejes Principales
 
 1. Gobernabilidad y Democracia.
 2. Seguridad y Justicia.
@@ -31,7 +31,7 @@ La agenda se divide en dos tipos de temas: principales y transversales.
 7. Desarrollo Económico.
 8. Salud.
 
-### Temas Transversales
+### Ejes Transversales
 
 1. **Paridad de Género:** asegurar igualdad entre hombres y mujeres.
 2. **Dignificación del Trabajo Legislativo:** mejorar el trabajo del Congreso y usar los recursos de manera eficiente.
