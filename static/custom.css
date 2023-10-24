@@ -1,3 +1,11 @@
+.bg-light-green {
+    background-color: #9eebcf;
+}
+
+.bg-washed-red {
+    background-color: #ffdfdf;
+}
+
 .circle {
     border-radius: 100%;
     height: 1rem;
