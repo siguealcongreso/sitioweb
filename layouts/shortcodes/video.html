@@ -1,0 +1,7 @@
+
+{{ $video_src := .Get 0 }}
+{{ $poster_url := .Get 1 }}
+
+<video controls width=80% poster="{{ $poster_url }}">
+  <source src="{{ $video_src }}" type="video/mp4">
+</video>

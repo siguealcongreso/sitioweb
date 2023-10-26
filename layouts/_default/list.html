@@ -1,15 +1,26 @@
-{{ define "main" }}
-  <article class="pa3 pa4-ns nested-copy-line-height nested-img">
-    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
-      {{- .Content -}}
-    </section>
-    <section class="flex-ns flex-wrap justify-around mt5">
-      {{ range (.Paginate .Pages).Pages }}
-        <div class="relative w-100 w-30-l mb4 bg-white">
-          {{- partial "summary.html" . -}}
+{{ partial "header" . }}
+{{ partial "nav" . }}
+<div class="container">
+  {{ .Content }}
+  <div class="row g-3">
+      {{ $paginator := .Paginate (.Pages) }}
+      {{ range sort $paginator.Pages }}
+  <div class="col-12 col-md-6 col-lg-4">
+    <div class="card h-100 shadow">
+	<div class="card-body">
+	<div class="card-title">
+        {{ partial "post-metadata-list" . }}
+          {{ partial "banner" . }}
+        <!-- supports emoji -->
+	</div>
+        <div class="card-text">
+          {{ .Summary | emojify }}
         </div>
+	</div>
+      </div>
+  </div>
       {{ end }}
-    </section>
-    {{- template "_internal/pagination.html" . -}}
-  </article>
-{{ end }}
+  </div>
+</div>
+{{ partial "paginate-list" . }}
+{{ partial "footer" . }}

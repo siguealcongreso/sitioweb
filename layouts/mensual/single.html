@@ -1,35 +1,36 @@
-{{ define "main" }}
-<aside>
-<div class="ph4 mw8 center">
+{{ partial "header" . }}
+{{ partial "nav" . }}
+<div class="container">
+<div class="pagination">
     {{ with .NextInSection }}
-      <a class="f6 link dim ph3 pv2 mb2 dib black" href="{{.Permalink}}">← {{.Title}}</a>
+      <a class="btn btn-secondary pull-left" href="{{.Permalink}}"><i class="fa fa-chevron-left" aria-hidden="true"></i> {{.Title}}</a>
     {{ else }}
       {{ range where .Parent.Parent.RegularPagesRecursive ".Params.indice" (add (int .Params.indice) -1) }}
-      <a class="f6 link dim ph3 pv2 mb2 dib black" href="{{.Permalink}}">← {{.Title}}</a>{{ end }}
+      <a class="btn btn-secondary pull-left" href="{{.Permalink}}"><i class="fa fa-chevron-left"></i> {{.Title}}</a>{{ end }}
     {{ end }}
     {{ with .PrevInSection }}
-      <a class="f6 link dim ph3 pv2 mb2 dib black" href="{{.Permalink}}">{{.Title}} →</a>
+      <a class="btn btn-secondary pull-right" href="{{.Permalink}}">{{.Title}} <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
     {{ else }}
       {{ range where .Parent.Parent.RegularPagesRecursive ".Params.indice" (add .Params.indice 1) }}
-      <a class="f6 link dim ph3 pv2 mb2 dib black" href="{{.Permalink}}">{{.Title}} →</a>{{ end }}
+      <a class="btn btn-secondary pull-right" href="{{.Permalink}}">{{.Title}} <i class="fa fa-chevron-right" aria-hidden="true"></i></a>{{ end }}
     {{ end }}
 </div>
-</aside>
+  <h1>{{ .Title }}</h2>
 {{- .Content -}}
-<aside>
-<div class="ph4 mw8 center">
+</div>
+<div class="container">
+<div class="pagination">
     {{ with .NextInSection }}
-      <a class="f6 link dim ph3 pv2 mb2 dib black" href="{{.Permalink}}">← {{.Title}}</a>
+      <a class="btn btn-secondary pull-left" href="{{.Permalink}}"><i class="fa fa-chevron-left" aria-hidden="true"></i> {{.Title}}</a>
     {{ else }}
       {{ range where .Parent.Parent.RegularPagesRecursive ".Params.indice" (add (int .Params.indice) -1) }}
-      <a class="f6 link dim ph3 pv2 mb2 dib black" href="{{.Permalink}}">← {{.Title}}</a>{{ end }}
+      <a class="btn btn-secondary pull-left disabled" href="{{.Permalink}}"><i class="fa fa-chevron-left" aria-hidden="true"></i> {{.Title}}</a>{{ end }}
     {{ end }}
     {{ with .PrevInSection }}
-      <a class="f6 link dim ph3 pv2 mb2 dib black" href="{{.Permalink}}">{{.Title}} →</a>
+      <a class="btn btn-secondary pull-right" href="{{.Permalink}}">{{.Title}} <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
     {{ else }}
       {{ range where .Parent.Parent.RegularPagesRecursive ".Params.indice" (add .Params.indice 1) }}
-      <a class="f6 link dim ph3 pv2 mb2 dib black" href="{{.Permalink}}">{{.Title}} →</a>{{ end }}
+      <a class="btn btn-secondary pull-right" href="{{.Permalink}}">{{.Title}} →</a>{{ end }}
     {{ end }}
 </div>
-</aside>
-{{ end }}
+</div>

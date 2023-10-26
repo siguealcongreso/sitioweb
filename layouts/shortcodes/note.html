@@ -1,0 +1,1 @@
+{{ $ord := add .Ordinal 1 }} {{ $id := print $ord }}{{ $val := .Get 0}}{{ .Page.Scratch.SetInMap "footnotes" $id $val }}<sup title="{{ $val | markdownify }}">[<a href=#ref{{ $id }}>{{ $id }}</a>]</sup>
