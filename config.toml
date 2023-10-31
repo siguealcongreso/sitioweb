@@ -1,5 +1,5 @@
 disableHugoGeneratorInject = true
-baseURL = "http://siguealcongreso.org"
+baseURL = "https://siguealcongreso.org"
 languageCode = "es"
 title = "Sigue al Congreso"
 theme = "hugo-now"
