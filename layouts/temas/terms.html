@@ -2,28 +2,32 @@
 {{ partial "nav" . }}
 
 <article class="container mt-4">
-  <h2>{{ .Title }}</h2>
+  <h1>{{ .Title }}</h1>
   <div class="section">
     {{ .Content }}
   </div>
   
-  {{ range sort .Data.Terms.ByCount "Page.Title" }}
+  {{ range .Data.Terms.ByCount }}
     {{ if ne .Page.Title "Pendiente" }}
       <div class="row mt-3">
         <div class="col">
-          <h3>
-            {{ .Page.Title }} ({{ .Count }})
-          </h3>
+          <h2>
+            <!-- <strong> -->
+              <a href="{{ .Page.Permalink }}">
+                {{ .Page.Title }} ({{ .Count }})
+              </a>
+            <!-- </strong> -->
+          </h2>
         </div>
       </div>
-      {{ range sort .Pages.ByParam "numero" }}
-        {{ if and .Params.tema (ne .Params.tema "Municipios") (ne (index .Params.municipios 0) "") }}
-          <div class="row mb-2">
+      {{ range .Pages.ByParam "numero" }}
+        {{ if (eq (index .Params.municipios 0) "") }}
+          <div class="row mb-2 border">
             <div class="{{ if eq .Params.estado "Aprobado" }}col-md-9 bg-success-subtle{{ else }}col-md-9 bg-light{{ end }} mb-3 mb-md-0">
-              <p>{{ .Params.resumen | markdownify }} ({{ .Params.numero }})</p>
+              <p>{{ .Params.resumen | markdownify }} <a href="{{ .Page.Permalink }}"> ({{ .Params.numero }}) </a></p>
             </div>
             <div class="col-md-3 bg-light">
-              <p>{{ delimit .Params.area ", " }}</p>
+              <p>{{ with .Param "areas/lxiii" }}{{ delimit . ", " }}{{ end }}</p> 
             </div>
           </div>
         {{ end }}
