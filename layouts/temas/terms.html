@@ -1,28 +1,37 @@
 {{ partial "header" . }}
 {{ partial "nav" . }}
-<article class="container">
-  <h2>{{ .Title }}</h2>
-    <div class="section">
-      {{ .Content }}
-    </div>
-  </article>
-  <div class="container">
-    <section class="section">
-      {{ range .Data.Terms.ByCount }}
-        <h3>
-          <a href="{{ .Page.Permalink }}">
-            {{ .Page.Title }} {{ .Count }}
-          </a>
-        </h3>
-	  <span>
-	    {{ range .Pages }}
-	    <a class="badge rounded-pill bg-secondary" href="{{ .Permalink }}">{{ .Params.numero }}</a>
-	    {{ end }}
-	  </span>
-        <!-- {{ range .Pages }} -->
-        <!--   {{ partial "ficha.html" . }} -->
-        <!-- {{ end }} -->
-      {{ end }}
-    </section>
+
+<article class="container mt-4">
+  <h1>{{ .Title }}</h1>
+  <div class="section">
+    {{ .Content }}
   </div>
+  
+  {{ range .Data.Terms }}
+    {{ if ne .Page.Title "Pendiente" }}
+      <div class="row mt-3">
+        <div class="col">
+          <h2>
+            <a href="{{ .Page.Permalink }}">
+              {{ .Page.Title }} ({{ .Count }})
+            </a>
+          </h2>
+        </div>
+      </div>
+      {{ range .Pages.ByParam "numero" }}
+        {{ if (eq (index .Params.municipios 0) "") }}
+          <div class="row mb-2 border">
+            <div class="{{ if eq .Params.estado "Aprobado" }}col-md-9 bg-success-subtle{{ else }}col-md-9 bg-light{{ end }} mb-3 mb-md-0">
+              <p>{{ .Params.resumen | markdownify }} <a href="{{ .Page.Permalink }}"> ({{ .Params.numero }}) </a></p>
+            </div>
+            <div class="col-md-3 bg-light">
+              <p>{{ with .Param "areas/lxiii" }}{{ delimit . ", " }}{{ end }}</p> 
+            </div>
+          </div>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+</article>
+
 {{ partial "footer" . }}
