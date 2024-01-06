@@ -4,7 +4,6 @@ title: "Sigue al Congreso"
 description: "Monitoreo parlamentario ciudadano"
 ---
 
-[Acerca de](acerca)
 
 [Organización del Congreso](organizacion)
 
