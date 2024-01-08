@@ -9,6 +9,7 @@ vid: K_MTy7bb-nU
 
 Duración: 24:57
 
+<!--more-->
 {{< youtube K_MTy7bb-nU >}}
 
 
@@ -26,3 +27,4 @@ Crea el orden jurídico con 3 sistemas:
 |  1   |  Sistema Federal      | Distribución de funciones  | Orden Constitucional<br>Orden Federal<br>Orden Local<br>Orden Municipal |
 |  2   |  Sistema Presidencial | Forma de gobierno          | Poder Legislativo<br>Poder Ejecutivo<br>Poder Judicial                  |
 |  3   |  Sistema democrático  | Forma de integrar el poder | Presidente<br>Gobernadores<br>Diputados<br>Alcaldes                     |
+{ class="table table-striped-columns table-hover table-bordered" }
