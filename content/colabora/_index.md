@@ -4,7 +4,7 @@ date: 2022-03-16T11:23:39-06:00
 draft: false
 cascade:
 - _build:
-    list: false
+    list: true
 ---
 
 ¡Colabora con Sigue al Congreso escribiendo el resumen de **una**
@@ -23,5 +23,5 @@ sencillos de entender.
 > Conoce cómo es una iniciativa, tal como se maneja en el
 >  Congreso 🧐
 
-👉 [Términos de las aportaciones](/colabora/terminos)
+
 

@@ -3,7 +3,7 @@ title: Términos
 date: 2022-03-16T11:23:39-06:00
 draft: false
 ---
-
+<!--more-->
 Tu contribución a este repositorio es voluntaria y no remunerada. El
 texto de resumen y el tema se contribuyen en forma anónima y otorgando
 permiso a Sigue al Congreso para agregar el texto al repositorio,
