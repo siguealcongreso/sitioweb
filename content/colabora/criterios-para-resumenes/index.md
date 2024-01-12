@@ -99,3 +99,17 @@ La lista de los temas que ya están publicados se puede consultar [aquí](https:
 **Ejemplos de tabla comparativa**
 
 *Con contexto 1230*
+
+![tabla-contexto-1230-1](colabora/criterios-para-resumenes/tabla-contexto-1230-1.png)
+
+![tabla-contexto-1230-2](colabora/criterios-para-resumenes/tabla-contexto-1230-2.png)
+
+![ley-contexto-1230](colabora/criterios-para-resumenes/ley-contexto-1230.png)
+
+*Sin contexto 1234*
+
+![tabla-sin-contexto-1234-1](colabora/criterios-para-resumenes/tabla-sin-contexto-1234-1.png)
+
+![tabla-sin-contexto-1234-2](colabora/criterios-para-resumenes/tabla-sin-contexto-1234-2.png)
+
+![ley-contexto-1234](colabora/criterios-para-resumenes/ley-contexto-1234.png)
