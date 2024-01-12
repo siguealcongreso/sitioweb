@@ -21,7 +21,7 @@ Necesitamos conocer dos cosas: los cambios y su contexto.
 
 **Los cambios**
 
-Es necesario conocer el texto vigente de cada artículo que se modifica, conocer el texto modificado de cada artículo y encontrar la diferencia entre el texto vigente y el modificado.
+Es necesario conocer el texto *vigente* de cada artículo que se modifica, conocer el texto *modificado* de cada artículo y encontrar la *diferencia* entre el texto vigente y el modificado.
 
 *La tabla comparativa*
 

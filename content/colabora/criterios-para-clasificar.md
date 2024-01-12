@@ -22,12 +22,12 @@ Estandarizar los criterios para clasificar las iniciativas.
 Puede indicar:
 
 1. El poder en el que afectan:
-   - a. Poder Ejecutivo - Ley Orgánica del Poder Ejecutivo
-   - b. Poder Legislativo - Ley Orgánica del Poder Legislativo
-   - c. Poder Judicial - Ley Orgánica del Poder Judicial
+   - a. Poder Ejecutivo - *Ley Orgánica del Poder Ejecutivo*
+   - b. Poder Legislativo - *Ley Orgánica del Poder Legislativo*
+   - c. Poder Judicial - *Ley Orgánica del Poder Judicial*
 2. La rama del Derecho:
-   - a. Derecho Civil - Código Civil
-   - b. Derecho Penal - Código Penal
+   - a. Derecho Civil - *Código Civil*
+   - b. Derecho Penal - *Código Penal*
 3. El aspecto general:
    - a. Medio ambiente
    - b. Salud
