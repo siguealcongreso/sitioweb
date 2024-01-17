@@ -2,7 +2,7 @@
 title: Incidencia política
 
 date: 2020-11-18T15:58:59-06:00
-draft: true
+draft: false
 ---
 ¿Cómo hacer que el gobierno en turno tome en cuenta a la sociedad civil organizada?
 

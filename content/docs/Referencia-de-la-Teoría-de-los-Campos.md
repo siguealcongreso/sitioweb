@@ -1,7 +1,8 @@
 ---
 title: Referencia de la Teoría de los Campos
 date: 2020-11-18T15:58:59-06:00
-draft: true
+draft: false
+toc: true
 ---
 
 Un resumen de la Teoría de los Campos del sociólogo francés Pierre Bourdieu. 
@@ -37,10 +38,10 @@ Parsons se refiere al poder como la capacidad de una persona o grupo para impone
 ### Poderes de facto y/o institucionales.
 Es importante diferenciar entre poder de facto y poder institucional o de iure o jure. 
 
-El poder de facto es aquel que no está legalizado formalmente y sin embargo es, existe, se da {{< note "Poderes fácticos y sistema político en México, Alberto Olvera, capítulo 3 en [El deterioro de la democracia](https://www.colef.mx/deap/wp-content/uploads/2013/09/Alejandro-Monsivais-El-Deterioro-de-la-democracia-2012.pdf), Consideraciones sobre el régimen político, lo público y la ciudadanía en México, Víctor Espinosa Valle y Alejandro Monsiváis Carrillo, coordinadores. El Colegio de la Frontera Norte, 2012, 420 páginas" >}}; actualmente las redes sociales tienen un poder de facto sobre la opinión pública para determinar el consumo de las personas aunque no fueron creadas ni institucionalizadas para este propósito. En cambio el poder de iure o jure es aquel que está instaurado legal y legítimamente por las normas jurídicas vigentes; por ejemplo los gobiernos de los países. 
+El poder de facto es aquel que no está legalizado formalmente y sin embargo es, existe, se da {{< note `Poderes fácticos y sistema político en México, Alberto Olvera, capítulo 3 en [El deterioro de la democracia](https://www.colef.mx/deap/wp-content/uploads/2013/09/Alejandro-Monsivais-El-Deterioro-de-la-democracia-2012.pdf), Consideraciones sobre el régimen político, lo público y la ciudadanía en México, Víctor Espinosa Valle y Alejandro Monsiváis Carrillo, coordinadores. El Colegio de la Frontera Norte, 2012, 420 páginas` >}}; actualmente las redes sociales tienen un poder de facto sobre la opinión pública para determinar el consumo de las personas aunque no fueron creadas ni institucionalizadas para este propósito. En cambio el poder de iure o jure es aquel que está instaurado legal y legítimamente por las normas jurídicas vigentes; por ejemplo los gobiernos de los países. 
 ### Capitales
 Son recursos que puede tener cada agente.  Se clasifican en la siguientes categorías:
-político, económico, social, cultural, simbólico {{< note "[The forms of capital](https://www.marxists.org/reference/subject/philosophy/works/fr/bourdieu-forms-capital.htm), Pierre Bourdieu, 1986" >}}
+político, económico, social, cultural, simbólico {{< note `[The forms of capital](https://www.marxists.org/reference/subject/philosophy/works/fr/bourdieu-forms-capital.htm), Pierre Bourdieu, 1986` >}}
 
 El capital político es la autoridad de un agente por su puesto o rol en una institución.
 

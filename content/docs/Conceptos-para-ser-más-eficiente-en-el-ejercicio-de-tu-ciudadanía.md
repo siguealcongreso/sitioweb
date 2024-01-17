@@ -1,7 +1,7 @@
 ---
 title: Algunos conceptos que te ayudarán a más eficiente en el ejercicio de tu ciudadanía 
 date: 2020-11-18T15:58:59-06:00
-draft: true
+draft: false
 ---
 
 
