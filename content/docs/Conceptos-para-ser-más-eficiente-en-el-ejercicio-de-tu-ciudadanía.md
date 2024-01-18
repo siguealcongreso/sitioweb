@@ -1,7 +1,7 @@
 ---
 title: Algunos conceptos que te ayudarán a más eficiente en el ejercicio de tu ciudadanía 
 date: 2020-11-18T15:58:59-06:00
-draft: true
+draft: false
 ---
 
 
@@ -52,32 +52,9 @@ Conoce a tus vecinos, averigua si están interesados en intervenir para que el g
 Una vez que te reuniste con tus vecinos haz una tabla con tres columnas: 
 
 
-<table class="f5 w-100 mw8 center" cellspacing="0">
-  <tr class="stripe-dark">
-  <th class="pa3">
-Nombre del vecino
-  </th>
-  <th class="pa3">
-Dirección y teléfono
-  </th>
-  <th class="pa3">
-Ocupación
-  </th>
-  </tr>
-  <tr class="stripe-dark">
-  <td class="pa3">
-
-  </td>
-  <td class="pa3">
-
-  </td>
-  <td class="pa3">
-
-  </td>
-  </tr>
-</table>
-
-
+| Nombre del vecino | Dirección y teléfono | Ocupación |
+|-------------------|----------------------|-----------|
+{ class="table table-striped-columns table-hover table-bordered" }
 
 Cada una de las personas que conforman este grupo de vecinos tiene además una historia personal que ha sido alimentada a través del tiempo con experiencias de todo tipo, con relaciones familiares, de amistad, de trabajo, con éxitos y fracasos; cada uno de ustedes lleva todo esto de manera inconsciente, su **habitus**, a esta nueva aventura de participación ciudadana. Así que además de los capitales de conocimientos y de relaciones es importante tomar en cuenta que a la hora de interactuar el habitus de cada uno se pondrá en el terreno de juego, es inevitable. 
 
@@ -85,30 +62,10 @@ Ejercicio:
 Conforme avanza el tiempo y su organización vecinal, los vecinos se van conociendo y descubren cuáles son los capitales que cada uno puede aportar al grupo; haz una tabla con esta información: 
 
 Por ejemplo
-<table class="f5 w-100 mw8 center" cellspacing="0">
-  <tr class="stripe-dark">
-  <th class="pa3">
-Nombre
-  </th>
-  <th class="pa3">
-Ocupación
-  </th>
-  <th class="pa3">
-Qué puede aportar
-  </th>
-  </tr>
-  <tr class="stripe-dark">
-  <td class="pa3">
-Juan Gutiérrez
-  </td>
-  <td class="pa3">
-Herrero
-  </td>
-  <td class="pa3">
-Conocimientos de herrería, sabe los costos de estos trabajos
-  </td>
-  </tr>
-</table>
+| Nombre          | Ocupación | Qué puede aportar                                 |
+|-----------------|-----------|----------------------------------------------------|
+| Juan Gutiérrez  | Herrero   | Conocimientos de herrería, sabe los costos de estos trabajos |
+{ class="table table-striped-columns table-hover table-bordered" }
 
 
 Ya tienen mucha información para iniciar el contacto con el gobierno municipal y concretamente con la dependencia que atiende los parques, generalmente se llama Parques y jardínes. Ahora toca definir una estrategia, es decir, cómo le van a hacer para plantear la problemática que los convoca y qué es lo que van a pedir al funcionario en cuestión. 

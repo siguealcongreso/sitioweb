@@ -20,7 +20,7 @@ Preguntas:
 * ¿Has participado alguna vez en una acción ciudadana? 
 * ¿Qué problemas has detectado en tu colonia que requiere atención por parte del municipio?
 
-En Jalisco la **Ley del** **Sistema de** **Participación Ciudadana** **y Popular** **para la** **Gobernanza del** **Estado de** **Jalisco** garantiza este derecho.{{< note "[Ley del Sistema de Participación Ciudadana y Popular para la Gobernanza del Estado de Jalisco](https://congresoweb.congresojal.gob.mx/BibliotecaVirtual/legislacion/Leyes/Ley%20del%20Sistema%20de%20Participaci%C3%B3n%20Ciudadana%20y%20Popular%20para%20la%20Gobernanza%20del%20Estado%20de%20Jalisco.doc) en  [https://www.congresojal.gob.mx](https://www.congresojal.gob.mx)" >}}
+En Jalisco la **Ley del** **Sistema de** **Participación Ciudadana** **y Popular** **para la** **Gobernanza del** **Estado de** **Jalisco** garantiza este derecho.{{< note `[Ley del Sistema de Participación Ciudadana y Popular para la Gobernanza del Estado de Jalisco](https://congresoweb.congresojal.gob.mx/BibliotecaVirtual/legislacion/Leyes/Ley%20del%20Sistema%20de%20Participaci%C3%B3n%20Ciudadana%20y%20Popular%20para%20la%20Gobernanza%20del%20Estado%20de%20Jalisco.doc) en  [https://www.congresojal.gob.mx](https://www.congresojal.gob.mx)` >}}
 
 **Artículo 4**.
 * En el Estado de Jalisco se reconoce el derecho humano a la participación ciudadana y popular como un principio fundamental en la organización política y social, el cual se entiende como el derecho de los habitantes y ciudadanos del Estado para intervenir en las decisiones públicas, deliberar, discutir y cooperar con las autoridades, así como para incidir en la formulación, ejecución y evaluación de las políticas y actos de gobierno.
@@ -47,7 +47,7 @@ Para que una Ley se ponga en práctica y no se quede nada más en el papel, es n
 
 Todas estas acciones encaminadas a que las personas intercambien ideas, profundicen en las problemáticas a resolver, lleguen a acuerdos que favorezcan a todos los implicados y propongan las mejores soluciones. 
 
-Para acceder al Reglamento de Participación Ciudadana de Guadalajara: [https://portal.guadalajara.gob.mx/nvo-reglamento-participacion/](https://portal.guadalajara.gob.mx/nvo-reglamento-participacion/)
+Para acceder al [Reglamento de Participación Ciudadana de Guadalajara](https://transparencia.guadalajara.gob.mx/sites/default/files/reglamentos/RegParticipacionCiudadanaPlaneacionParticipativaGDL.pdf)
 
 
 A continuación, vamos a presentar y enumerar, a manera de ejemplo, algunas formas de organización ciudadanas reconocidas y herramientas propuestas en los reglamentos mencionados. 

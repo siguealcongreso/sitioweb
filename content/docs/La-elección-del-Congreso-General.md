@@ -3,7 +3,7 @@ title: La elección del Congreso General
 
 date: 2020-11-18T15:58:59-06:00
 tags: [Organización]
-draft: true
+draft: false
 ---
 ¿Cómo se eligen los diputados y los senadores del Congreso General?
 <!--more-->
@@ -15,7 +15,7 @@ Los integrantes de la Cámara de Diputados se eligen cada tres años.  La Consti
 
 Para elegir a las 300 diputaciones por votación de mayoría relativa, el territorio nacional se divide en 300 distritos electorales uninominales.  En cada distrito se postulan una o más candidaturas de un partido o candidaturas independientes.  A las entidades federativas se les asignan distritos en proporción a su población, y por lo menos se les deben asignar dos distritos.
 
-Para elegir a las 200 diputaciones por representación proporcional el territorio nacional se divide en 5 circunscripciones electorales plurinominales y se establece un sistema de asignación mediante listas regionales. {{< note "La representación proporcional por Héctor Solorio Almazán en Temas Selectos de Derecho Electoral, [PDF](https://www.te.gob.mx/publicaciones/sites/default/files//archivos_libros/02_temas_selectos1_0.pdf), 59 páginas" >}}
+Para elegir a las 200 diputaciones por representación proporcional el territorio nacional se divide en 5 circunscripciones electorales plurinominales y se establece un sistema de asignación mediante listas regionales. {{< note `La representación proporcional por Héctor Solorio Almazán en Temas Selectos de Derecho Electoral, [PDF](https://www.te.gob.mx/ccje/Archivos/temas_representacion_proporcional.pdf), 59 páginas` >}}
 
 
 
