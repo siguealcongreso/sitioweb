@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+    <!-- analytics -->
+    {{ partial "analytics.html" . }}
+
+    {{ partial "meta.html" . }}
+
+    {{ partial "favicons.html" . }}
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <base href="{{ .Site.BaseURL }}">
+    <title>{{ .Title }}</title>
+    <link rel="canonical" href="{{ .Permalink }}">
+
+    {{if (isset .Site.Params "mastodon")}}
+    <!-- Mastodon site verification -->
+    <link rel="me" href="{{ .Site.Params.mastodon }}">
+    {{end}}
+
+    {{ with .OutputFormats.Get "rss" -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ end -}}
+
+    {{ partial "includes.html" . }}
+</head>
+<body lang="en">
