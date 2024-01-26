@@ -3,32 +3,39 @@ title: Designación de consejeros de la judicatura
 
 date: 2020-11-18T15:58:59-06:00
 tags: [Procesos]
-draft: true
+draft: false
 ---
 
+En el año 2020, el proceso de selección de nuevos consejeros para el Consejo de la Judicatura del Estado de Jalisco se erigió como un acontecimiento de gran relevancia, marcado por la participación de numerosos candidatos y una serie de pasos legislativos. A continuación, se presenta una detallada cronología de los eventos que caracterizaron este proceso, culminando con la designación de los nuevos consejeros, quienes asumen funciones por un periodo de 4 años en sustitución de los salientes Jorge García González, Eduardo Moel Modiano e Irma Leticia Leal Moya. 
 
 <!--more-->
 
+# Línea del tiempo
 
-{{< note " Convocatoria a Consejera Juez del Consejo de la Judicatura [https://www.congresojal.gob.mx/?q=convocatorias/formato-versi-n-p-blica-para-la-convocatoria-para-la-elecci-n-de-una-consejera-juez](https://www.congresojal.gob.mx/?q=convocatorias/formato-versi-n-p-blica-para-la-convocatoria-para-la-elecci-n-de-una-consejera-juez) " >}}
+- 23/04/2020: Se emite el Acuerdo Legislativo que abre la convocatoria para la elección de un Consejero Ciudadano y una Consejera Ciudadana integrantes del Consejo de la Judicatura del Estado de Jalisco. 
+{{< note " [Convocatoria](https://congresoweb.congresojal.gob.mx/infolej/agendakioskos/documentos/sistemaintegral/estados/R_43498.pdf) para la elección de un Consejero Ciudadano integrante del Consejo de la Judicatura No. INFOLEJ: 4633/LXII " >}}
+{{< note "  [Convocatoria](https://congresoweb.congresojal.gob.mx/infolej/agendakioskos/documentos/sistemaintegral/estados/R_43499.pdf) para la elección de una Consejera Ciudadana integrante del Consejo de la Judicatura No. INFOLEJ: 4634/LXII " >}}
 
-{{< note " Convocatoria para la elección de un Consejero Ciudadano integrante del Consejo de la Judicatura [https://www.congresojal.gob.mx/?q=convocatorias/formato-versi-n-p-blica-para-la-convocatoria-para-la-elecci-n-de-un-consejero](https://www.congresojal.gob.mx/?q=convocatorias/formato-versi-n-p-blica-para-la-convocatoria-para-la-elecci-n-de-un-consejero) " >}}
+- 12/05/2020: Cierre de la convocatoria, con un total de 67 participantes para los cargos de Consejero Ciudadano (39 aspirantes), Consejera Ciudadana (16 aspirantes), y Consejera Juez (12 aspirantes) del Consejo de la Judicatura de Jalisco. Los expedientes presentados serán evaluados por el Órgano Técnico de la Comisión Legislativa de Seguridad y Justicia.
+{{< note "  [Se registran 67 ciudadanos para Consejo de la judicatura](https://www.congresojal.gob.mx/boletines/se-registran-67-ciudadanos-para-consejo-de-la-judicatura) " >}}
 
-{{< note " Convocatoria para la elección de una Consejera Ciudadana integrante del Consejo de la Judicatura [https://www.congresojal.gob.mx/?q=convocatorias/formato-versi-n-p-blica-para-la-convocatoria-para-la-elecci-n-de-una-consejera](https://www.congresojal.gob.mx/?q=convocatorias/formato-versi-n-p-blica-para-la-convocatoria-para-la-elecci-n-de-una-consejera) " >}}
+- Se realizaron pruebas y examenes a los aspirantes
 
-{{< note " SE REGISTRAN 67 CIUDADANOS PARA CONSEJO DE LA JUDICATURA [https://www.congresojal.gob.mx/boletines/se-registran-67-ciudadanos-para-consejo-de-la-judicatura](https://www.congresojal.gob.mx/boletines/se-registran-67-ciudadanos-para-consejo-de-la-judicatura) " >}}
+- 18/07/2020: Presentación a las 18:00 horas del Acuerdo Legislativo (LXII 4961), convocando a la Comisión de Seguridad y Justicia para sesionar de manera extraordinaria a las 19:00 horas. El objetivo es discutir y aprobar, en su caso, los dictámenes de elegibilidad de los aspirantes a consejera juez, consejera ciudadana, y consejero ciudadano para integrar el Consejo de la Judicatura del Estado, según las convocatorias previas (minutas de acuerdo legislativo 48-LXII-20 y 50-LXII-20).
 
-{{< note " Sesión Ordinaria 130 del Congreso de Jalisco [Parte 1](https://www.facebook.com/CanalParlamentoDeJalisco/videos/601237184129329/?vh=e&d=n) 18:00 horas, duración 2:02:29, 18:47 Inclusión del Punto 6.1, 33:42 Lectura del punto 6.1 " >}}
+- La Comisión de Seguridad y Justicia emite un segundo dictamen de elegibilidad
 
-{{< note " [Parte 2](https://www.facebook.com/CanalParlamentoDeJalisco/videos/402324903986826/) duración 1:58:56 " >}}
+- 19/07/2020: El Congreso designó a Claudia Esperanza Rivera Maytorena como Consejera Jueza, y a Tatiana Esther Anaya Zúñiga y Gabhdiel Iván Novia Cruz como Consejeros Ciudadanos.
+{{< note " [Elige el Pleno a nuevos consejeros de la Judicatura](https://www.congresojal.gob.mx/boletines/elige-el-pleno-nuevos-consejeros-de-la-judicatura)">}}
 
-{{< note " [Parte 3](https://www.facebook.com/CanalParlamentoDeJalisco/videos/759084601528684/) duración 1:10:04 " >}}
 
-{{< note " [Tras echar abajo examen teórico, Congreso elige a tres consejeros de la Judicatura](https://www.informador.mx/jalisco/Tras-echar-abajo-examen-teorico-Congreso-elige-a-tres-consejeros-de-la-Judicatura-20200619-0011.html) por Sergio Blanco, 19 de junio de 2020. Claudia Rivera Maytorena fue elegida como consejera juez, en tanto que Tatiana Esther Anaya Zúñiga y Gabhdiel Iván Novia Cruz como consejeros ciudadanos. " >}}
+# Controversia
 
+La elección de los nuevos consejeros para la Judicatura del Estado de Jalisco en 2020 generó una controversia marcada por desacuerdos y señalamientos dentro del ámbito legislativo y la opinión pública.
 {{< note " [¿Qué aprendizajes nos dejo los nombramientos de consejeros de la judicatura?](http://elrumbo.mx/2020/07/27/que-aprendizajes-nos-dejo-los-nombramientos-de-consejeros-de-la-judicatura-frente-al-derecho/) por Dra. Lucía Almaraz, 27 de julio de 2020, elrumbo.mx " >}}
-{ [Responde el Comité al Congreso: Se trata de Transparencia en Combate a la Corrupción](https://m.youtube.com/watch?feature=youtu.be&v=ql8EB36SwMk) 22 de julio de 2020, duración 27:05 }
-{{< note " [Acta de la sesión ordinaria 134 del Congreso de Jalisco, 	 21 de julio de 2020, 113 páginas](https://congresoweb.congresojal.gob.mx/infolej/agendakioskos/documentos/sistemaintegral/Sesion/ActaSesionAnt/ACT_134_ORD_21_07_20.pdf). 	Comunicaciones y propuestas de la junta de coordinación política o de la mesa directiva, 6.2, página 42. Propuesta de modificación al acuerdo legislativo 6.2, página 43, el texto de la modificación en páginas 44 a 46. Se aprueba la modificación, página 47. Se está a discusión en lo general el acuerdo 6.2, tres diputados hacen uso de la voz, páginas 47 a 59. Aprobación del acuerdo 6.2 página 60. " >}}
+{{< note " [Tras echar abajo examen teórico, Congreso elige a tres consejeros de la Judicatura](https://www.informador.mx/jalisco/Tras-echar-abajo-examen-teorico-Congreso-elige-a-tres-consejeros-de-la-Judicatura-20200619-0011.html) por Sergio Blanco, 19 de junio de 2020. Claudia Rivera Maytorena fue elegida como consejera juez, en tanto que Tatiana Esther Anaya Zúñiga y Gabhdiel Iván Novia Cruz como consejeros ciudadanos. " >}}
+{{< note " [Elige el Pleno a nuevos consejeros de la Judicatura](https://www.congresojal.gob.mx/boletines/elige-el-pleno-nuevos-consejeros-de-la-judicatura)">}}
+{{< note " [Responde el Comité al Congreso: Se trata de Transparencia en Combate a la Corrupción](https://m.youtube.com/watch?feature=youtu.be&v=ql8EB36SwMk) 22 de julio de 2020, duración 27:05 ">}}
 
 
 
