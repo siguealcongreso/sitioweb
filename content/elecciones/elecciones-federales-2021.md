@@ -1,21 +1,24 @@
 ---
-title: "Elecciones 2021"
+title: "Elecciones Federales 2021"
 date: 2021-06-23T10:46:05-05:00
-tags: [Ciudadanía]
+tags: []
 draft: false
 toc: true
 ---
+
+Resultados de las elecciones de diputaciones federales
+<!-- concurrentes con las de diputaciones para la Legislatura LXIII -->
+
+<!--more-->
+
+## Introducción
 
 ¿Quién ganó en mi distrito para diputaciones federales?
 ¿Quienes quedaron en segundo y tercer lugar?
 ¿Qué tantos votantes y abstencionistas hubo en mi distrito?
 
-Consulta estas y otras preguntas en los resulados en cada uno de los
+Consulta estas y otras preguntas en los resultados en cada uno de los
 300 distritos.
-
-<!--more-->
-
-## Introducción
 
 A continuación se muestran gráficamente los resultados por distrito de
 las votaciones de diputaciones federales de 2021 con los nombres de
