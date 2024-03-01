@@ -15,6 +15,8 @@ description: "Monitoreo parlamentario ciudadano"
 
 [Histórico](historico)
 
+[Elecciones](elecciones)
+
 <img src="https://abs.twimg.com/errors/logo46x38.png" width="5%"> [Twitter](https://twitter.com/sigueAlCongreso)
 
 <img src="/img/facebook-3.svg" width="5%"> [Facebook](https://www.facebook.com/SigueAlCongreso)
