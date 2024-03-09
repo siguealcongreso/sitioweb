@@ -4,8 +4,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <meta name="description" content="{{ .Params.Description }}">
-<meta property="og:description" content="{{ .Params.Description }}" />
 <meta name="author" content="{{ .Site.Author }}" />
 
-<meta property="og:title" content="{{ .Title }}" />
-<meta property="twitter:title" content="{{ .Title }}" />
+    {{- template "_internal/opengraph.html" . -}}
+    {{- template "_internal/schema.html" . -}}
+    {{- template "_internal/twitter_cards.html" . -}}
