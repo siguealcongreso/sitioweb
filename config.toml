@@ -5,6 +5,7 @@ title = "Sigue al Congreso"
 theme = "hugo-now"
 defaultContentLanguage = "es"
 ignoreFiles = ['.*md~']
+titleCaseStyle = "none"
 
 [params]
   show_reading_time = true
