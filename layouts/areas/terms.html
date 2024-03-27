@@ -1,8 +1,8 @@
-{{ define "main" }}
-  <article class="cf pa3 pa4-m pa4-l">
-    <div class="measure-wide-l center f4 lh-copy nested-copy-line-height nested-links nested-img mid-gray">
+{{ partial "header" . }}
+{{ partial "nav" . }}
+    <div class="container">
       {{ $slice := slice }}
-      {{ range ($.Site.GetPage ("/areas")).Pages }}
+      {{ range ($.Site.GetPage ("/areas/lxiii")).Pages }}
         {{ range $page := .Pages }}
           {{ $slice = $slice | append $page }}
         {{ end }}
@@ -27,46 +27,41 @@
           {{ $municipios = add $municipios 1 }}
         {{ end }}
       {{ end }}
-      {{ .Content }} Las {{ $total }} iniciativas se agrupan en {{ len .Data.Terms }} áreas. Se muestran {{ $pendientes }} iniciativas en proceso. {{ $municipios }} iniciativas se muestran en <a href="/municipios">Municipios</a> Las {{ $aprobadas }} iniciativas aprobadas se marcan en color verde:
+      {{ .Content }}
 
       <!-- {{ if $sintema }} Se muestran {{ sub $pendientes $sintema }} iniciativas en proceso, hay {{ $sintema }} a las que les falta tema y resumen (<a href="/monitoreo/sintema/lxiii">clic para ayudar</a>).{{ end }} -->
     </div>
-  </article>
-  <div class="mw8 center">
-    <section class="ph4">
-      <table>
+  <div class="container">
+    <section class="section">
+      <table class="table table-hover">
 	<tr class="tl"><th>Área</th><th>Cantidad</th><th>Aprobadas</th></tr>
       {{ range .Data.Terms.ByCount }}
         {{ $aprobadas := 0 }}
 	{{ range .Pages }}
           {{ if eq .Params.estado "Aprobado" }}{{ $aprobadas = add $aprobadas 1 }}{{ end }}
 	{{ end }}
-        <tr class="stripe-dark"><td><a href="#{{ .Page.Title }}">{{ .Page.Title }}</a></td>
-	  <td class="tr">{{ .Count }}</td>
-	  <td class="tr">{{ if $aprobadas }}{{ $aprobadas }}{{ end }}</td>
+        <tr><td><a href="/areas/lxiii/#{{ .Page.Title }}">{{ .Page.Title }}</a></td>
+	  <td>{{ .Count }}</td>
+	  <td>{{ if $aprobadas }}{{ $aprobadas }}{{ end }}</td>
 	</tr>
       {{ end }}
       </table>
     </section>
-  </div>
-  <div class="mw8 center">
-    <section class="ph4">
+    <section class="section">
       {{ range .Data.Terms.ByCount }}
-        <h4 id="{{ .Page.Title }}" class="f3">
-          <a href="{{ .Page.Permalink }}" class="link blue hover-black">
+        <h3 id="{{ .Page.Title }}">
+          <a href="{{ .Page.Permalink }}">
             {{ .Page.Title }} {{ .Count }}
           </a>
-        </h4>
-	<table cellspacing="0">
+        </h3>
+	<table class="table table-hover">
 	  {{ range .Pages.ByParam "numero" }}
-	  <tr class="{{ if eq .Params.estado "Aprobado" }}bg-light-green{{ end }}">
-	    <td class="bb b--black-20">{{ index .Params.temas 0 }}</td>
-	    <td class="bb b--black-20">{{ .Params.resumen | markdownify }} (<a href="{{ .Permalink }}">{{ .Params.numero }}</a>)</td>
-	    <!-- <td class="bb b--black-20">{{ .Params.cambios }}</td> -->
+	  <tr class="{{ if eq .Params.estado "Aprobado" }}bg-success-subtle{{ end }}">
+	    <td>{{ index .Params.temas 0 }}</td>
+	    <td>{{ .Params.resumen | markdownify }} (<a href="{{ .Permalink }}">{{ .Params.numero }}</a>)</td>
          </tr>
 	    {{ end }}
         </table>
       {{ end }}
     </section>
-  </div>
-{{ end }}
+{{ partial "footer" . }}
