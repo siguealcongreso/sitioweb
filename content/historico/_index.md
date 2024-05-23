@@ -5,7 +5,3 @@ draft: false
 ---
 
 Actividades realizadas en años previos
-
-[Trabajo 2019-2020](/trabajo)
-
-[Conferencias 2020-2021](/conferencias)
