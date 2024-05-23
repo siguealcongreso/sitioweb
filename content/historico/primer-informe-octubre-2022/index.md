@@ -47,7 +47,7 @@ por Ignacio Pérez Vega en udgtv.com` >}}
 
 La invitación que se envió:
 
-{{< figure src="invitacion.jpg" alt="Invitación" width="50%" class="figure" >}}
+![](invitacion.jpg)
 
 ## Referencias
 
