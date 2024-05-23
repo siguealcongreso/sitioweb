@@ -1,5 +1,6 @@
 ---
 title: Conferencias 2020-2021
+date: 2020-10-04T12:30:13-06:00
 description: Conversatorios, diálogos y entrevistas
 ---
 
