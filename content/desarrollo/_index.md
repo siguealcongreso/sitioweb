@@ -15,22 +15,18 @@ hacer:
 | Analizar datos                           |  procesando y visualizando los datos de iniciativas, de los ingresos municipales, y de los resultados de las elecciones para legislaturas en Jalisco. | - Saber Python<br>- Usar [Pandas](https://pandas.pydata.org/),  [Matplotlib](https://matplotlib.org/) y [Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/latest/)
 { class="table table table-striped-columns table-hover table-bordered" }
 
-## ¿Qué se necesita para colaborar?
-
-Interés, compromiso, ganas de aprender, trabajo en equipo.
-
 ## ¿Dónde están los archivos?
 
-En [GitHub](https://github.com/siguealcongreso), en los repositorios
-*sitioweb, colabora, aprende, elecciones*.  Ahí encuentras los
-archivos fuente de nuestro sitio y de las aplicaciones
-
-Usamos la herramienta [git](https://git-scm.com/) para guardar las
-versiones de cada archivo.
+En [nuestra cuenta](https://github.com/siguealcongreso) en GitHub:
+tenemos cinco repositorios.  *sitioweb, colabora, aprende, elecciones,
+municipios*.
 
 ## ¿En qué hace falta trabajar?
 
 En cada respositorio encontrarás tareas pendientes (Issues) sin
-asignar. Cada Issue incluye la descripción de lo que hace falta, el
-resultado esperado y alguna sugerencia de cómo implementar la
-solución.
+asignar, con la descripción de lo que hace falta, el resultado
+esperado y alguna sugerencia de cómo implementar la solución.
+
+## ¿Qué se necesita para colaborar?
+
+Interés, compromiso, ganas de aprender, trabajo en equipo.
