@@ -5,7 +5,7 @@ draft: false
 weight: 20
 description: Análisis detallado de la elección de consejeras y Consejero de la Judicatura. Nuestros 11 pasos para una designación ejemplar
 ---
-
+&nbsp;
 <!--more-->
 A raíz de las tres convocatorias publicadas el 24 de abril por el Congreso del Estado de Jalisco para la elección de una Consejera Jueza, una Consejera Ciudadana y un Consejero Ciudadano del Consejo de la Judicatura y, aprovechando el registro de aspirantes en el Congreso, compartimos el análisis con las **observaciones y recomendaciones que hemos hecho para determinar si las Convocatorias cumplen con los estándares antes mencionados.**
 

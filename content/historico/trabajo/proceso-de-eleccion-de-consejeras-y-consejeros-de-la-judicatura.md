@@ -5,6 +5,7 @@ draft: false
 weight: 30
 description: Conoce el proceso de elección de consejeras y Consejero de la Judicatura, promoviendo transparencia y participación ciudadana
 ---
+&nbsp;
 <!--more-->
 ## Creación de irrenunciables para las designaciones públicas.
 
