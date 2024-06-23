@@ -4,7 +4,7 @@ date: 2023-11-06T16:21:14-06:00
 draft: false
 ---
 
-[Lista de todas las iniciativas agrupadas por tema](/temas)
+[Lista de todas las iniciativas agrupadas por tema](/temas/lxiii)
 
 <!--more-->
 
