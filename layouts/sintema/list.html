@@ -12,7 +12,7 @@
 	  <th>3 Escribe</th>
 	  <!-- <th>Referencia</th> -->
 	</tr>
-	{{ range ($.Site.GetPage ("/monitoreo/iniciativas/lxiii")).Pages.ByParam "numero" }}
+	{{ range ($.Site.GetPage ("/iniciativas/lxiii")).Pages.ByParam "numero" }}
 	{{ if and (eq (index (.Param "temas/lxiii") 0) "Pendiente") (eq (index (.Param "municipios/lxiii") 0) "") }}
         <tr class="{{ if eq .Params.estado "Aprobado" }}bg-success-subtle{{ else }}stripe-dark{{ end }}">
 	  <td class="tl">{{ .Params.cambios }} (<a href="{{ .Permalink }}">{{ .Params.numero }}</a>)</td>
