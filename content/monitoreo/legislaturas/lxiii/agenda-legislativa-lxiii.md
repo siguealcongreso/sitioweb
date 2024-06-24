@@ -1,5 +1,5 @@
 ---
-title: Agenda Legislativa LXIII
+title: Agenda Legislativa
 date: 2023-08-31T18:51:13-06:00
 draft: false
 description: Descubre los ejes principales y transversales de la Agenda Legislativa LXIII del Congreso en Jalisco, México
