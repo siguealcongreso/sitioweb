@@ -57,11 +57,11 @@
 	<table class="table table-hover">
 	  {{ range .Pages.ByParam "numero" }}
 	  <tr class="{{ if eq .Params.estado "Aprobado" }}bg-success-subtle{{ end }}">
-	    {{ if not (eq (index .Params.municipios 0) "") }}
+	    {{ if not (eq (index (.Param "municipios/lxiii") 0) "") }}
 	    <td>{{ index .Params.autores_corto 0 }}</td>
 	    <td>{{ .Params.cambios }}(<a href="{{ .Permalink }}">{{ .Params.numero }}</a>)</td>
 	    {{ else }}
-	    <td>{{ index .Params.temas 0 }}</td>
+	    <td>{{ index (.Param "temas/lxiii") 0 }}</td>
 	    <td>{{ .Params.resumen | markdownify }} (<a href="{{ .Permalink }}">{{ .Params.numero }}</a>)</td>
 	    {{ end }}
 	    <!-- <td class="bb b--black-20">{{ .Params.cambios }}</td> -->

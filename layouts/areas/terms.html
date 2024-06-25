@@ -57,7 +57,7 @@
 	<table class="table table-hover">
 	  {{ range .Pages.ByParam "numero" }}
 	  <tr class="{{ if eq .Params.estado "Aprobado" }}bg-success-subtle{{ end }}">
-	    <td>{{ index .Params.temas 0 }}</td>
+	    <td>{{ index (.Param "temas/lxiii") 0 }}</td>
 	    <td>{{ .Params.resumen | markdownify }} (<a href="{{ .Permalink }}">{{ .Params.numero }}</a>)</td>
          </tr>
 	    {{ end }}
