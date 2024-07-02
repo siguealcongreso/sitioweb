@@ -4,8 +4,12 @@ date: 2024-06-30T12:00:32-06:00
 draft: false
 ---
 
-Resumen de Eventos de la nueva legislatura
+La legislatura siguiente
 <!--more-->
+
+Resumen de Eventos que deberán llevarse a cabo para el inicio, el
+funcionamiento y el cierre de la nueva legislatura.
+
 <div class="container mt-5">
     <h1 class="mb-4">Legislatura LXIV del Congreso de Jalisco</h1>
     <div class="card mb-4">
