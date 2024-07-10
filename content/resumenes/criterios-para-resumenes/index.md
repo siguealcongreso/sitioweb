@@ -100,16 +100,16 @@ La lista de los temas que ya están publicados se puede consultar [aquí](https:
 
 *Con contexto 1230*
 
-![tabla-contexto-1230-1](colabora/criterios-para-resumenes/tabla-contexto-1230-1.png)
+![tabla-contexto-1230-1](tabla-contexto-1230-1.png)
 
-![tabla-contexto-1230-2](colabora/criterios-para-resumenes/tabla-contexto-1230-2.png)
+![tabla-contexto-1230-2](tabla-contexto-1230-2.png)
 
-![ley-contexto-1230](colabora/criterios-para-resumenes/ley-contexto-1230.png)
+![ley-contexto-1230](ley-contexto-1230.png)
 
 *Sin contexto 1234*
 
-![tabla-sin-contexto-1234-1](colabora/criterios-para-resumenes/tabla-sin-contexto-1234-1.png)
+![tabla-sin-contexto-1234-1](tabla-sin-contexto-1234-1.png)
 
-![tabla-sin-contexto-1234-2](colabora/criterios-para-resumenes/tabla-sin-contexto-1234-2.png)
+![tabla-sin-contexto-1234-2](tabla-sin-contexto-1234-2.png)
 
-![ley-contexto-1234](colabora/criterios-para-resumenes/ley-contexto-1234.png)
+![ley-contexto-1234](ley-contexto-1234.png)
