@@ -6,7 +6,8 @@ tags: [Investigación]
 draft: false
 toc: true
 ---
-¿PARA QUÉ ME PODRÍA SERVIR CONOCER EL SITIO WEB DEL CONGRESO DEL ESTADO DE JALISCO?
+¿Para qué me podría servir conocerlo?
+<!--more-->
 Para responder las siguientes preguntas:
 ¿Sabes  quién te  representa?
 ¿Sabes a qué comisiones pertenece tu representante?
@@ -15,7 +16,6 @@ Para responder las siguientes preguntas:
 ¿Sabes qué resultado ha tenido en su trabajo legislativo?
 ¿Cómo encuentro el diario debate de una sesión para leer qué hicieron o votaron?
 ¿Cómo encuentro el video de alguna sesión?
-<!--more-->
 
 Como ciudadanos elegimos un representante para que formara parte del poder legislativo.   Ell@s se comprometieron a velar por el bien común.
 Tenemos el derecho a que nuestros diputados nos informen con claridad y veracidad, es importante observar su desempeño, vigilar qué y cómo legislan, aprender a exigir que atiendan los intereses de la ciudadanía.

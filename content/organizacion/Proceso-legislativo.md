@@ -4,10 +4,10 @@ title: Proceso legislativo
 date: 2020-11-18T15:58:59-06:00
 draft: false
 ---
-¿Cómo se crean las leyes en los congresos? ¿Qué pasos generales se siguen?
+¿Cómo se crean o modifican las leyes en los congresos? ¿Qué pasos se siguen?
+<!--more-->
 
 Aquí explicamos las generalidades del proceso.
-<!--more-->
 
 ## Introducción
 

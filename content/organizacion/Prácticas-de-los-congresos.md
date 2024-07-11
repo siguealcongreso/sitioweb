@@ -5,8 +5,9 @@ tags: [Procesos]
 draft: false
 toc: true
 ---
-¿Cuáles son las prácticas comunes en los congresos? ¿Cómo impactan el funcionamiento? Conocer las prácticas comunes ayuda a entender qué podemos esperar de un congreso.
+¿Cuáles son y cómo impactan el funcionamiento?
 <!--more-->
+Conocer las prácticas comunes ayuda a entender qué podemos esperar de un congreso.
 
 ## Introducción
 Las prácticas en los congresos locales y en el congreso general son las costumbres y formas de hacer las cosas que se observan frecuentemente.  A continuación se mencionan y explican las más conocidas.

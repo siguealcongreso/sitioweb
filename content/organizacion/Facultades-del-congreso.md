@@ -5,7 +5,7 @@ draft: false
 description: Descubre las facultades del Congreso del Estado de Jalisco para regular los poderes Ejecutivo, Judicial y Municipal, así como sus propias funciones. 
 ---
 
-Conoce más sobre las facultades del Congreso del Estado de Jalisco.
+¿Cuales son sus funciones, además de crear y modificar leyes?
 
 <!--more-->
 

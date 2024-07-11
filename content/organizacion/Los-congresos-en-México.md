@@ -7,10 +7,9 @@ draft: false
 toc: true
 ---
 
-¿Cómo está organizado el Congreso General de México? ¿Cómo están organizados los Congresos de los Estados de la República Mexicana?
-
-A continuación explicamos lo que tienen en común el Congreso General y los Congresos Estatales en su organización y funcionamiento.
+¿Cómo están organizados el Congreso General y los Congresos de los Estados?
 <!--more-->
+A continuación explicamos lo que tienen en común el Congreso General y los Congresos Estatales en su organización y funcionamiento.
 
 
 La Constitución Política de los Estados Unidos Mexicanos define:
