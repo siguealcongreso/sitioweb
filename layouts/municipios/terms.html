@@ -36,7 +36,7 @@
 	{{ range .Pages }}
           {{ if eq .Params.estado "Aprobado" }}{{ $aprobadas = add $aprobadas 1 }}{{ end }}
 	{{ end }}
-        <tr><td><a href="/municipios/#{{ .Page.Title }}">{{ .Page.Title }}</a></td>
+        <tr><td><a href="#{{ .Page.Title }}">{{ .Page.Title }}</a></td>
 	  <td class="tr">{{ .Count }}</td>
 	  <td class="tr">{{ if $aprobadas }}{{ $aprobadas }}{{ end }}</td>
 	</tr>
