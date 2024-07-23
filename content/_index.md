@@ -9,6 +9,8 @@ description: "Monitoreo parlamentario ciudadano"
 
 [Trabajo del Congreso](monitoreo)
 
+[Designaciones](designaciones)
+
 [Aprende](aprende)
 
 [Colabora](colabora)
