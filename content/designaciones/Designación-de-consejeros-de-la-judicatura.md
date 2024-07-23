@@ -5,10 +5,10 @@ date: 2020-11-18T15:58:59-06:00
 tags: [Procesos]
 draft: false
 ---
-
+<!--more-->
 En el año 2020, el proceso de selección de nuevos consejeros para el Consejo de la Judicatura del Estado de Jalisco se erigió como un acontecimiento de gran relevancia, marcado por la participación de numerosos candidatos y una serie de pasos legislativos. A continuación, se presenta una detallada cronología de los eventos que caracterizaron este proceso, culminando con la designación de los nuevos consejeros, quienes asumen funciones por un periodo de 4 años en sustitución de los salientes Jorge García González, Eduardo Moel Modiano e Irma Leticia Leal Moya. 
 
-<!--more-->
+
 
 # Línea del tiempo
 
