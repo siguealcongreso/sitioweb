@@ -9,29 +9,55 @@
   
   {{ range .Data.Terms }}
     {{ if ne .Page.Title "Pendiente" }}
+
       <div class="row mt-3">
+
         <div class="col">
-          <h2>
+          <h2 id="{{ .Page.Title | urlize }}" class="header">
+
             <a href="{{ .Page.Permalink }}">
               {{ .Page.Title }} ({{ .Count }})
+
             </a>
+            <a href="#{{ .Page.Title | urlize }}" class="header-link">🔗</a>
           </h2>
         </div>
       </div>
       {{ range .Pages.ByParam "numero" }}
+
         {{ if (eq (index (.Param "municipios/lxiii") 0) "") }}
           <div class="row mb-2 border">
+
             <div class="{{ if eq .Params.estado "Aprobado" }}col-md-9 bg-success-subtle{{ else }}col-md-9 bg-light{{ end }} mb-3 mb-md-0">
+
               <p>{{ .Params.resumen | markdownify }} <a href="{{ .Page.Permalink }}"> ({{ .Params.numero }}) </a></p>
+
             </div>
             <div class="col-md-3 bg-light">
+
               <p>{{ with .Param "areas/lxiii" }}{{ delimit . ", " }}{{ end }}</p> 
             </div>
           </div>
+
         {{ end }}
+
       {{ end }}
     {{ end }}
   {{ end }}
 </article>
 
 {{ partial "footer" . }}
+
+<style>
+
+  .header-link {
+    visibility: hidden;
+  }
+
+
+  .header:hover .header-link {
+
+    visibility: visible;
+  }
+
+</style>
