@@ -1,6 +1,6 @@
 Archivos del sitio web https://siguealcongreso.org
 
-### Para ver el sitio web en tu computadora
+## Para ver el sitio web en tu computadora
 
 1. Clona este repositorio
 
@@ -15,7 +15,9 @@ Archivos del sitio web https://siguealcongreso.org
 
 4. Navega a http://localhost:1313
 
-### Para contribuir al sitio web
+## Para contribuir al sitio web
+
+### Preparación
 
 1. Copia este repositorio a tu cuenta en GitHub (Crea un fork)
 
@@ -33,34 +35,35 @@ a `origin`:
        git config --local branch.main.remote upstream
        git remote set-url --push upstream git@github.com:<tu-usuario>/sitioweb.git-
 
-5. Actualiza la rama `main` de tu repositorio local con los cambios más
+### Trabajo en un Issue
+
+1. Actualiza la rama `main` de tu repositorio local con los cambios más
 recientes del repositorio original:
 
        git checkout main
        git pull upstream
 
-6. Crea una nueva rama en donde van a ir los cambios en los que trabajes.
+2. Crea una nueva rama en donde van a ir los cambios en los que trabajes.
 
        git checkout -b issue-48 main
 
-7. Haz modificaciones
+3. Haz modificaciones
 
-8. Revisa que tus modificaciones cumplen con los *Requerimientos para
+4. Revisa que tus modificaciones cumplen con los *Requerimientos para
 los commits* que se describen en la siguiente sección.
 
-9. Realiza uno o más commits en tu computadora
+5. Realiza uno o más commits en tu computadora
 
-10. Empuja la rama con tus modificaciones a tu repositorio en GitHub
+6. Empuja la rama con tus modificaciones a tu repositorio en GitHub
 
-11. Solicita que se incluyan tus cambios (Crea un Pull Request)
+7. Solicita que se incluyan tus cambios (Crea un Pull Request)
 
-12. Una vez que se aprobó el Pull Request, borra la rama del issue:
+8. Una vez que se aprobó el Pull Request, borra la rama del issue:
 
        git branch -d issue-48
+       git push -d origin issue-48
 
-13. Para el siguiente issue a trabajar, regresa al paso 5.
-
-### Requerimientos para los commits
+## Requerimientos para los commits
 
 1. Revisa que `git diff --check` no reporte renglones con espacios al
 final en los archivos que modificas.
