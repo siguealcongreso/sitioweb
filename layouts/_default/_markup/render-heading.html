@@ -1,0 +1,13 @@
+  <style>
+    .header-link {
+      visibility: hidden;
+    }
+
+    .header:hover .header-link {
+      visibility: visible;
+    }
+  </style>
+  <h{{ .Level }} id="{{ .Anchor }}" class="header">
+    {{ .Text | safeHTML }} 
+    <a href="#{{ .Anchor }}" class="header-link">🔗</a>
+  </h{{ .Level }}>

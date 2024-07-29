@@ -40,7 +40,7 @@
 	{{ range .Pages }}
           {{ if eq .Params.estado "Aprobado" }}{{ $aprobadas = add $aprobadas 1 }}{{ end }}
 	{{ end }}
-        <tr><td><a href="/areas/lxiii/#{{ .Page.Title }}">{{ .Page.Title }}</a></td>
+        <tr><td><a href="/areas/lxiii/#{{ .Page.Title | urlize }}">{{ .Page.Title }}</a></td>
 	  <td>{{ .Count }}</td>
 	  <td>{{ if $aprobadas }}{{ $aprobadas }}{{ end }}</td>
 	</tr>
@@ -49,10 +49,11 @@
     </section>
     <section class="section">
       {{ range .Data.Terms.ByCount }}
-        <h3 id="{{ .Page.Title }}">
+        <h3 id="{{ .Page.Title | urlize }}" class="header">
           <a href="{{ .Page.Permalink }}">
             {{ .Page.Title }} {{ .Count }}
           </a>
+          <a href="#{{ .Page.Title | urlize }}" class="header-link">🔗</a>
         </h3>
 	<table class="table table-hover">
 	  {{ range .Pages.ByParam "numero" }}
@@ -65,3 +66,12 @@
       {{ end }}
     </section>
 {{ partial "footer" . }}
+<style>
+  .header-link {
+    visibility: hidden;
+  }
+
+  .header:hover .header-link {
+    visibility: visible;
+  }
+</style>
