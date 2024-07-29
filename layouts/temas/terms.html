@@ -11,10 +11,11 @@
     {{ if ne .Page.Title "Pendiente" }}
       <div class="row mt-3">
         <div class="col">
-          <h2>
+          <h2 id="{{ .Page.Title | urlize }}" class="header">
             <a href="{{ .Page.Permalink }}">
               {{ .Page.Title }} ({{ .Count }})
             </a>
+            <a href="#{{ .Page.Title | urlize }}" class="header-link">🔗</a>
           </h2>
         </div>
       </div>
@@ -35,3 +36,13 @@
 </article>
 
 {{ partial "footer" . }}
+
+<style>
+  .header-link {
+    visibility: hidden;
+  }
+
+  .header:hover .header-link {
+    visibility: visible;
+  }
+</style>
