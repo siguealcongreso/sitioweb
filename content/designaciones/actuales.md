@@ -1,6 +1,6 @@
 ---
 title: Actuales
-date: 2024-07-22T16:13:31-06:00
+date: 2024-07-21T16:13:31-06:00
 draft: false
 ---
 Listado de designaciones Actuales
