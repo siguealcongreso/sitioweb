@@ -78,9 +78,6 @@ Duración en el cargo: 4 años
 | Cargo       | Nombre                          | Fecha de inicio | Fecha de terminación |
 |-------------|---------------------------------|-----------------|----------------------|
 | Presidente  | Daniel Espinosa Licón           | 2019            | 2024                 |
-| Consejero   | Gabhdiel Iván Novia Cruz        | 2020            | 2024                 |
-| Consejera   | Tatiana Anaya Zúñiga            | 2020            | 2024                 |
-| Jueza       | Claudia Rivera Maytorena        | 2020            | 2024                 |
 | Consejero   | Luis Enrrique Castellanos Ibarra| 26 de junio 2024| Junio 2028           |
 | Consejero   | Irvin Israel Ávila Trujillo     | 26 de junio 2024| Junio 2028           |
 | Jueza       | Gabriela Sánchez Cabrales       | 26 de junio 2024| Junio 2028           |
