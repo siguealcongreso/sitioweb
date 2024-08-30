@@ -1,5 +1,5 @@
 ---
-title: Designación de consejeros de la judicatura
+title: Designación de consejeros de la judicatura en 2020
 
 date: 2020-11-18T15:58:59-06:00
 tags: [Procesos]
