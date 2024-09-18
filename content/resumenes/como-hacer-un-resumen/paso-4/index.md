@@ -3,9 +3,9 @@ title: Paso 4
 date: 2024-09-13T14:12:59-06:00
 draft: false
 ---
-## Resumen de la inciativa
+## Resumen de la iniciativa
 <!--more-->
- En este paso vamos a realizar el llenado del campo del formulario llamado Resumen, es aqui donde depsues de haber leido los cambios de la iniciativa tenemos que redactar el resumen de lo que ha cambiado en esta misma. Para ello te invito a revisar de nuevo el documento y los criterios de aceptacion
+ En este paso vamos a realizar el llenado del campo del formulario llamado Resumen, es aquí donde después de haber leído los cambios de la iniciativa tenemos que redactar el resumen de lo que ha cambiado en esta misma. Para ello te invito a revisar de nuevo el documento y los criterios de aceptación
 
  [Revisar criterios de aceptacion](https://siguealcongreso.org/resumenes/criterios-para-clasificar/)
 
