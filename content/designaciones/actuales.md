@@ -64,13 +64,23 @@ Duración en el cargo: 7 años
 | 29     | Decima Sala          | José Luis Gutiérrez Miranda         | 15 Diciembre De 2020 | 14 De Diciembre De 2032    |
 | 30     | Decima Sala          | Mayra Angelica Sanchez Grajeda      | 26 De Enero De 2024  | 25 De Enero De 2036        |
 | 31     | Decima Sala          | Miriam Haydee Rincon Ochoa          | 15 De Febrero De 2024 | 14 De Febrero De 2036      |
-| 32     | Decima Primera Sala  | Espartaco Cedeño Muñoz              | 30 De Agosto De 2007 | 29 De Agosto De 2024       |
+| 32     | Decima Primera Sala  | Damián Campos García             | 30 De Agosto De 2024 | 29 De Agosto De 2031       |
 | 33     | Decima Primera Sala  | Jorge Alfredo Hidalgo Gonzalez      | 26 De Enero De 2024  | 25 De Enero De 2036        |
 | 34     | Decima Primera Sala  | Ana Elsa Cortés Ureña               | 15 De Diciembre De 2020 | 14 De Diciembre De 2032    |
 { class="table table-striped" }
 Fuente: [Supremo Tribunal de Justicia del Estado de Jalisco](https://stjjalisco.gob.mx/presidenciaysalas/)
 
+## Magistrados Del Tribunal De Justicia Administrativa
+Duración en el cargo: 7 años
 
+| Numero | Área De Adscripción  | Magistrado                          | Fecha De Designación | Fecha De Término Del Cargo |
+|--------|----------------------|-------------------------------------|----------------------|----------------------------|
+| 1      | Sala Superior        | Avelino Bravo Cacho                  | 1 de Enero de 2025  | 1 de Enero de 2032      |
+| 2      | Sala Unitaria        | Rocío Calzada Cárdenas            | 5 de Octubre 2024 | 5 De Octubre De 2031    |
+| 3      | Sala Unitaria        | Paloma Romana Magallanes de la Rosa        | 5 de octubre 2024 | 5 De Octubre De 2031      |
+| 4      | Sala Unitaria        | Abel Octavio Salgado Peña         | 5 de Octubre 2024   | 5 De Octubre De 2031         |
+{ class="table table-striped" }
+Fuente: [ Tribunal de Justicia Administrativa del Estado de Jalisco](https://tjajal.gob.mx/contenidos/post/32)
 
 ## Titulares del Consejo de la Judicatura del Poder Judicial
 Duración en el cargo: 4 años
@@ -81,7 +91,7 @@ Duración en el cargo: 4 años
 | Consejero   | Luis Enrrique Castellanos Ibarra| 26 de junio 2024| Junio 2028           |
 | Consejero   | Irvin Israel Ávila Trujillo     | 26 de junio 2024| Junio 2028           |
 | Jueza       | Gabriela Sánchez Cabrales       | 26 de junio 2024| Junio 2028           |
-| Consejero   | José de Jesús Becerra Ramírez   | 2019            | 2024                 |
+| Consejero   | Martha Gloria Gómez Hernández  | 2025            | 2032                |
 { class="table table-striped" }
 Fuente: [Consejo de la Judicatura del Poder Judicial](https://www.cjj.gob.mx/)
 
