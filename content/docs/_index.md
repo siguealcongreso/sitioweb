@@ -1,5 +1,8 @@
 ---
 title: Artículos y guías ¿Cómo hacerle para ...?
+cascade:
+- params:
+    cc: true
 ---
 
 Este es un repositorio para aprender y capacitarnos como
