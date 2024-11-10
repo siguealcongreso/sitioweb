@@ -1,7 +1,7 @@
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
-	  {{ if or .IsPage (eq .Kind "taxonomy") }}El texto está disponible bajo la <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.es">Licencia Creative Commons Atribución-CompartirIgual 4.0</a><p>{{ end }}
+	  {{ if or (and .IsPage (eq .Params.cc true)) (eq .Kind "taxonomy") }}El texto está disponible bajo la <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.es">Licencia Creative Commons Atribución-CompartirIgual 4.0</a><p>{{ end }}
           © Sigue al Congreso 2020-2024
         </footer>
       </div>
