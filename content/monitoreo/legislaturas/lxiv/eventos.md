@@ -8,17 +8,28 @@ Resumen de Eventos que deberán llevarse a cabo para el inicio, el funcionamient
 <div class="container mt-5">
     <h1 class="mb-4">Legislatura LXIV del Congreso de Jalisco</h1>
     <div class="card mb-4">
-        <div class="card-header">
-            <h2>Toma de protesta</h2>
-        </div>
-        <div class="card-body">
-            <p><strong>Cuando:</strong> 25 de octubre de 2024.</p>
-            <p><strong>Contexto:</strong> A las 11:00 horas en el Recinto Oficial del Congreso. Debe estar presente la Mesa Directiva saliente ya que toma la protesta a los diputados propietarios electos. Este evento es parte de la Junta Preparatoria, asegurando la formalidad del proceso democrático.</p>
-        </div>
-    </div>        
+        <div class="card-header d-flex justify-content-between align-items-center">
+                <h2 class="mb-0">Toma de protesta</h2>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="green" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                </svg>
+            </div>
+            <div class="card-body">
+                <p><strong>Cuando:</strong> 25 de octubre de 2024.</p>
+                <p><strong>Contexto:</strong> A las 11:00 horas en el Recinto Oficial del Congreso. Debe estar presente la Mesa Directiva saliente ya que toma la protesta a los diputados propietarios electos. Este evento es parte de la Junta Preparatoria, asegurando la formalidad del proceso democrático.</p>
+                <p><strong>Resultado:</strong>La Junta Preparatoria inició a las 11:21 y concluyó a las 11:54 horas.  Asistieron 37 diputaciones, de las cuales 36 estaban presentes a tiempo para la Toma de Protesta.  Cuando ya iniciaba el siguiente paso, que es la Elección de la Mesa Directiva de la LXIV Legislatura, una diputación se presentó en el recinto, por lo que tuvo que repetirse el paso anterior para tomar solamente su protesta. Una diputación estuvo ausente a la Junta Preparatoria y no se indicó la justificación.</p>
+                <p><strong>Fuente:</strong></p>
+                <a href='https://www.youtube.com/live/UE3ZSRRZHgs?si=hy5GNLW3WZoh23lv&t=878'>Click para ir al vídeo de la Toma de Protesta</a>
+                <br>
+                <a href='https://www.congresojal.gob.mx/boletines/toman-protesta-diputados-de-la-lxiv-legislatura'>Click para ir al boletín de la Toma de Protesta</a>
+            </div>
+    </div>
     <div class="card mb-4">
-        <div class="card-header">
+        <div class="card-header d-flex justify-content-between align-items-center">
             <h2>Integración de la Mesa Directiva</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="green" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+            </svg>
         </div>
         <div class="card-body">
             <p><strong>Cuando:</strong> 25 de octubre de 2024.</p>
@@ -28,11 +39,16 @@ Resumen de Eventos que deberán llevarse a cabo para el inicio, el funcionamient
                 <li>Se debe acordar el orden del puesto de presidente de la mesa para que cada partido ocupe la presidencia durante seis meses, también por mayoría absoluta. Este acuerdo no se hace en la Junta Preparatoria, sino en una sesión del primer período y antes de elegir la segunda mesa.</li>
                 <li>Las siguientes se eligen en los primeros 15 días del último mes de la mesa actual.</li>
             </ul>
+            <p><strong>Fuente:</strong></p>
+            <a href='https://www.youtube.com/watch?v=zp8phvNM56A'>Click para ir al vídeo de la Entrega de recepción</a>
         </div>
     </div>       
     <div class="card mb-4">
-        <div class="card-header">
+         <div class="card-header d-flex justify-content-between align-items-center">
             <h2>Instalación de la Legislatura</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="green" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+            </svg>
         </div>
         <div class="card-body">
             <p><strong>Cuando:</strong> 1 de noviembre de 2024.</p>
@@ -40,8 +56,12 @@ Resumen de Eventos que deberán llevarse a cabo para el inicio, el funcionamient
         </div>
     </div>
     <div class="card mb-4">
-        <div class="card-header">
+         <div class="card-header d-flex justify-content-between align-items-center">
             <h2>Designación del Secretario General del Congreso</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="green" class="bi bi-check-circle pr-4" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                <path d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"/>
+            </svg>
         </div>
         <div class="card-body">
             <p><strong>Cuando:</strong> Después de la instalación de la Legislatura, posiblemente en la primera sesión ordinaria. </p>
@@ -49,8 +69,12 @@ Resumen de Eventos que deberán llevarse a cabo para el inicio, el funcionamient
         </div>
     </div>
     <div class="card mb-4">
-        <div class="card-header">
+         <div class="card-header d-flex justify-content-between align-items-center">
             <h2>Integración de las comisiones</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="green" class="bi bi-check-circle pr-4" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                <path d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"/>
+            </svg>
         </div>
         <div class="card-body">
             <p><strong>Cuando:</strong> Posterior a la instalación de la Legislatura, dentro de los primeros doce días de sesiones.</p>
@@ -58,8 +82,12 @@ Resumen de Eventos que deberán llevarse a cabo para el inicio, el funcionamient
         </div>
     </div> 
     <div class="card mb-4">
-        <div class="card-header">
+        <div class="card-header d-flex justify-content-between align-items-center">
             <h2>Instalación de las comisiones</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="green" class="bi bi-check-circle pr-4" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                <path d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"/>
+            </svg>
         </div>
         <div class="card-body">
             <p><strong>Cuando:</strong> Después de su integración, en sesiones específicas convocadas para tal efecto. La Ley Orgánica especifica que tienen hasta 30 días una vez integradas.</p>
@@ -67,8 +95,12 @@ Resumen de Eventos que deberán llevarse a cabo para el inicio, el funcionamient
         </div>
     </div>
     <div class="card mb-4">
-        <div class="card-header">
+         <div class="card-header d-flex justify-content-between align-items-center">
             <h2>Instalación de la Junta de Coordinación Política</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="green" class="bi bi-check-circle pr-4" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                <path d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"/>
+            </svg>
         </div>
         <div class="card-body">
             <p><strong>Cuando:</strong> Después de la instalación de la Legislatura, una vez que cada Grupo Parlamentario ha definido quién es el presidente de su bancada.</p>
@@ -76,8 +108,12 @@ Resumen de Eventos que deberán llevarse a cabo para el inicio, el funcionamient
         </div>
     </div>        
     <div class="card mb-4">
-        <div class="card-header">
+        <div class="card-header d-flex justify-content-between align-items-center">
             <h2>Publicación de la Agenda Legislativa, del Plan Institucional del Poder Legislativo, y de las Matrices de Indicadores de Resultados</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" width="84" height="24" fill="green" class="bi bi-check-circle pr-4" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                <path d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"/>
+            </svg>
         </div>
         <div class="card-body">
             <p><strong>Cuando:</strong> Al inicio del primer periodo de sesiones ordinarias, el 1 de noviembre de 2024. Según el artículo 24 de la Ley Orgánica, algunos documentos tienen límites específicos y se repiten cada año.</p>
@@ -90,8 +126,12 @@ Resumen de Eventos que deberán llevarse a cabo para el inicio, el funcionamient
         </div>
     </div>
     <div class="card mb-4">
-        <div class="card-header">
+         <div class="card-header d-flex justify-content-between align-items-center">
             <h2>Informe de Legislatura en cada año de su duración</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="green" class="bi bi-check-circle pr-4" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                <path d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"/>
+            </svg>
         </div>
         <div class="card-body">
             <p><strong>Cuando:</strong> Al cierre de cada año legislativo, el 31 de octubre de cada año (31 de octubre de 2025, 2026, y 2027).</p>
@@ -99,8 +139,12 @@ Resumen de Eventos que deberán llevarse a cabo para el inicio, el funcionamient
         </div>
     </div>   
     <div class="card mb-4">
-        <div class="card-header">
+         <div class="card-header d-flex justify-content-between align-items-center">
             <h2>Clausura de la Legislatura</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="green" class="bi bi-check-circle pr-4" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                <path d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"/>
+            </svg>
         </div>
         <div class="card-body">
             <p><strong>Cuando:</strong> Al término del periodo constitucional de tres años, el 31 de octubre de 2027.</p>
@@ -108,3 +152,16 @@ Resumen de Eventos que deberán llevarse a cabo para el inicio, el funcionamient
         </div>
     </div>
 </div>
+<style>
+.checkbox-circle {
+    width: 20px;
+    height: 20px;
+    border: 2px solid lightgray;
+    border-radius: 50%;
+    background-color: transparent;
+}
+.checkbox-circle.filled {
+    background-color: green;
+    border-color: green;
+}
+</style>
