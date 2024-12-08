@@ -1,8 +1,8 @@
 ---
-title: Legislatura LXIII
+title: Trabajo legislativo
 cascade:
 - params:
     cc: true
 ---
 
-Conoce acerca del trabajo legislativo
+Conoce el trabajo legislativo en cada período
