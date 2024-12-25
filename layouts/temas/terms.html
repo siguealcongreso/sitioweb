@@ -6,7 +6,8 @@
   <div class="section">
     {{ .Content }}
   </div>
-  
+
+  {{ $legislatura := path.Base .Path }}
   {{ range .Data.Terms }}
     {{ if ne .Page.Title "Pendiente" }}
       <div class="row mt-3">
@@ -20,13 +21,13 @@
         </div>
       </div>
       {{ range .Pages.ByParam "numero" }}
-        {{ if (eq (index (.Param "municipios/lxiii") 0) "") }}
+        {{ if (eq (index (.Param (print "municipios/" $legislatura)) 0) "") }}
           <div class="row mb-2 border">
             <div class="{{ if eq .Params.estado "Aprobado" }}col-md-9 bg-success-subtle{{ else }}col-md-9 bg-light{{ end }} mb-3 mb-md-0">
               <p>{{ .Params.resumen | markdownify }} <a href="{{ .Page.Permalink }}"> ({{ .Params.numero }}) </a></p>
             </div>
             <div class="col-md-3 bg-light">
-              <p>{{ with .Param "areas/lxiii" }}{{ delimit . ", " }}{{ end }}</p> 
+              <p>{{ with .Param (print "areas/" $legislatura) }}{{ delimit . ", " }}{{ end }}</p> 
             </div>
           </div>
         {{ end }}

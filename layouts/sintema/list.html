@@ -12,8 +12,9 @@
 	  <th>3 Escribe</th>
 	  <!-- <th>Referencia</th> -->
 	</tr>
-	{{ range ($.Site.GetPage ("/iniciativas/lxiii")).Pages.ByParam "numero" }}
-	{{ if and (eq (index (.Param "temas/lxiii") 0) "Pendiente") (eq (index (.Param "municipios/lxiii") 0) "") }}
+	{{ $legislatura := path.Base .Path }}
+	{{ range ($.Site.GetPage (print "/iniciativas/" $legislatura)).Pages.ByParam "numero" }}
+	{{ if and (eq (index (.Param (print "temas/" $legislatura)) 0) "Pendiente") (eq (index (.Param (print "municipios/" $legislatura)) 0) "") }}
         <tr class="{{ if eq .Params.estado "Aprobado" }}bg-success-subtle{{ else }}stripe-dark{{ end }}">
 	  <td class="tl">{{ .Params.cambios }} (<a href="{{ .Permalink }}">{{ .Params.numero }}</a>)</td>
 	  <td><a href="https://congresoweb.congresojal.gob.mx/infolej/sistemaintegral/infolej/{{ .Params.documento }}" target="_blank">Leer documento</a></td>
