@@ -1,20 +1,5 @@
 Archivos del sitio web https://siguealcongreso.org
 
-## Para ver el sitio web en tu computadora
-
-1. Clona este repositorio
-
-       git clone --recurse-submodules git@github.com:siguealcongreso/sitioweb.git
-
-2. Instala [hugo](https://gohugo.io/) ([Installation](https://gohugo.io/installation/))
-
-3. Corre el servidor de hugo ([Develop and test your site](https://gohugo.io/getting-started/usage/#develop-and-test-your-site))
-
-       cd sitioweb
-       hugo server
-
-4. Navega a http://localhost:1313
-
 ## Para contribuir al sitio web
 
 ### Preparación
@@ -27,6 +12,7 @@ Archivos del sitio web https://siguealcongreso.org
 
 3. Agrega un remote `upstream`:
 
+       cd sitioweb
        git remote add upstream https://github.com/siguealcongreso/sitioweb.git
 
 4. Configura git para hacer pull de `main` en `upstream` y siempre hacer push
@@ -34,6 +20,17 @@ a `origin`:
 
        git config --local branch.main.remote upstream
        git remote set-url --push upstream git@github.com:<tu-usuario>/sitioweb.git-
+
+5. Instala [hugo](https://gohugo.io/) ([Installation](https://gohugo.io/installation/))
+
+6. Corre el servidor de hugo ([Develop and test your
+site](https://gohugo.io/getting-started/usage/#develop-and-test-your-site))
+
+       cd sitioweb
+       hugo server
+
+7. Navega a http://localhost:1313
+
 
 ### Trabajo en un Issue
 
