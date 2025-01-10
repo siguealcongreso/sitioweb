@@ -6,7 +6,7 @@ draft: false
 
 # Buscamos **voluntarios** para colaborar con nosotros
 
-## 1. Escribe el resumen de una iniciativa y clasifícala:
+## 1. Escribe el [resumen de una iniciativa](/resumenes) y clasifícala:
 
 ![¿De qué trata? ¿Qué propone? ¿en qué area va?](/img/de-que-trata-que-propone-que-area.png)
 

@@ -5,3 +5,4 @@ draft: false
 ---
 <!--more-->
 ## Guía paso a paso
+[Guía anterior](/resumenes/manual-para-iniciativas-de-ley.pdf)
