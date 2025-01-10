@@ -7,17 +7,6 @@ cascade:
     list: true
 ---
 
-¡Colabora con Sigue al Congreso escribiendo el resumen de **una**
-iniciativa de ley!
-
-Así todos podremos saber de qué trata y qué propone en términos
-sencillos de entender.
-
-👉 Cómo hacer el resumen de una iniciativa. Haz clic en la imagen:
-[![Manual para Iniciativas de Ley](/colabora/portada-manual.png)](/colabora/manual-para-iniciativas-de-ley.pdf)
-
-> Es una tarea muy sencilla que te llevará solo unos minutos. 😎 🏃
-
 👉 [¿Qué es y cómo se conforma una iniciativa de ley?](/docs/iniciativa/)
 
 > Conoce cómo es una iniciativa, tal como se maneja en el
